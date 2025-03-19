@@ -1,29 +1,23 @@
 import ssl
 import warnings
+from crewai import Agent, LLM
+from tools import AnalysisTools
+from config import MODEL_CONFIG
+from config import API_CONFIG
 
 ssl._create_default_https_context = ssl._create_unverified_context
 warnings.filterwarnings("ignore", category=UserWarning, module='urllib3')
 
-import os
-from dotenv import load_dotenv
-from crewai import Agent , LLM
-from langchain_openai import ChatOpenAI
-from tools import AnalysisTools
 
-load_dotenv()
+
 
 class CustomAgents:
     def __init__(self):
        
-        api_key = os.getenv("OPENAI_API_KEY")
-        base_url = os.getenv("OPENAI_BASE_URL")
-        #这里选择用chatgpt还是deepseek
-        # self.OpenAIGPT4 = ChatOpenAI(
-        #     model='deepseek-ai/DeepSeek-V2.5', temperature=0, base_url=base_url, api_key=api_key)
-        self.OpenAIGPT4 = LLM(
-            model="openai/deepseek-ai/DeepSeek-V2.5",
-            api_key=api_key,
-            base_url=base_url,
+        self.CurrentLLM = LLM(
+            model=MODEL_CONFIG["current_model"],
+            api_key=API_CONFIG["deepseek"]["api_key"],
+            base_url=API_CONFIG["deepseek"]["api_base"],
         )
     
     #用于构建用户对新闻的兴趣
@@ -44,7 +38,7 @@ class CustomAgents:
             """,
             allow_delegation=False,
             verbose=True,
-            llm=self.OpenAIGPT4,
+            llm=self.CurrentLLM,
         )
     # 用于辨别真实新闻和去除偏见
     def disentangling_interest_learning_module(self):
@@ -63,7 +57,7 @@ class CustomAgents:
             """,
             allow_delegation=False,
             verbose=True,
-            llm=self.OpenAIGPT4,
+            llm=self.CurrentLLM,
 
         )
     #用于综合以上信息进行推荐
@@ -83,7 +77,7 @@ class CustomAgents:
             """,
             allow_delegation=False,
             verbose=True,
-            llm=self.OpenAIGPT4,
+            llm=self.CurrentLLM,
         )
 
     

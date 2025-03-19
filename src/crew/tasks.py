@@ -37,11 +37,13 @@ class AnalysisTasks:
         return Task(
             description=(
                 """
-                检查新闻集"({newsset})"中所有新闻的真实性,过滤其中的虚假新闻和偏见新闻
+                检查新闻"({news})"的真实性,
+                如果新闻是虚假的,则返回"False",
+                如果新闻是真实的,则返回"True".
                 """
             ),
             expected_output="""
-                输出去除虚假新闻和偏见新闻后的新闻集.
+                输出新闻"True"或"False".
             """,
             agent=CustomAgents().disentangling_interest_learning_module(),
         )
