@@ -5,16 +5,7 @@ import warnings
 ssl._create_default_https_context = ssl._create_unverified_context
 warnings.filterwarnings("ignore", category=UserWarning, module='urllib3')
 
-
-
-article_url = 'https://www.cnn.com/2024/11/05/us/tropical-storm-rafael-forecast-hurricane-hnk/index.html'
-
-import requests
-response = requests.get(article_url, verify=False)
-
 from crewai import Crew, Process
-
-
 from agents import CustomAgents
 from tasks import AnalysisTasks
 
@@ -46,4 +37,13 @@ NewsCrew = Crew(
     verbose=True,
 )
 
-
+disentangling_crew = Crew(
+    agents=[
+        disentangling_agent,
+    ],
+    tasks=[
+        disentangling_task,
+    ],
+    process=Process.sequential,
+    verbose=True,
+)
