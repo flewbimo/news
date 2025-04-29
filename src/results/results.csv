@@ -1,11 +1,11 @@
 index,news,true_label,prediction,is_correct
 1,Did Hitler Invent the Inflatable Sex Doll?,False,True,False
-2,Does Texting ‘RBG’ to 50409 Send a Letter to Your Senators?,True,True,True
+2,Does Texting ‘RBG’ to 50409 Send a Letter to Your Senators?,True,False,False
 6,Did the White House Watch the Benghazi Attack and Do Nothing?,False,True,False
-7,Do Color Codes on Toothpaste Tubes Identify Their Ingredients?,False,False,True
+7,Do Color Codes on Toothpaste Tubes Identify Their Ingredients?,False,True,False
 9,Did Ruth Bader Ginsburg Say that Pedophilia Was Good for Children?,False,False,True
 10,Bow Hunting Wild Horses,True,True,True
-11,‘Welcome to Mingo County’,False,False,True
+11,‘Welcome to Mingo County’,False,True,False
 12,Dwayne Johnson Arrested,False,False,True
 13,‘Guccifer’ Is Not Missing or Dead,False,False,True
 14,Fireworks Explode in Woman During Shoplifting Attempt,False,False,True
@@ -18,16 +18,13 @@ index,news,true_label,prediction,is_correct
 23,"Omar Mateen’s Final Text to Wife Released: “I’m Gay, That’s Why I’m Doing This.”",False,False,True
 24,Alton Sterling Killed by Trump Supporter Robert Kinnison,False,False,True
 26,Monsanto Buys Whole Foods,False,False,True
-28,Teen Playing ‘Pokemon Go’ Stabbed and Mugged for His iPhone,False,False,True
+28,Teen Playing ‘Pokemon Go’ Stabbed and Mugged for His iPhone,False,True,False
 30,‘Stairway to Heaven’ Fireworks Display,True,True,True
-31,DeRay Mckesson and the Summer of Chaos,False,True,False
+31,DeRay Mckesson and the Summer of Chaos,False,"To determine the authenticity of ""(DeRay Mckesson and the Summer of Chaos),"" apply the above verification steps. If the article is found to be accurate after verification, the answer is ""True."" If not, the answer is ""False.""",False
 32,Obama Commissions Gender Neutral Bible,False,False,True
 33,Dallas Shooter Not Identified as Neo-Nazi Jeffrey Harris,False,False,True
 34,Pride of Lions Kills Five Poachers and Injures Three Others in Zimbabwe,False,False,True
-35,Einstein Bicycles as A-Bomb Explodes,False,"False
-
-**Explanation:**
-The headline ""(Einstein Bicycles as A-Bomb Explodes)"" is highly unlikely to be true. Albert Einstein was a theoretical physicist who had little to do with the practical development of the atomic bomb. The idea that he would be riding a bicycle at the moment an atomic bomb exploded is highly implausible and lacks credible evidence. Furthermore, there is no historical record or documentation suggesting such an event took place. Therefore, the news can be classified as ""False.""",False
+35,Einstein Bicycles as A-Bomb Explodes,False,False,True
 37,‘The Simpsons’ Predicted Pokemon Go,False,True,False
 38,Steven Hildreth Jr.’s Traffic Stop,True,True,True
 39,Nicolas Cage Death Hoax,False,False,True
