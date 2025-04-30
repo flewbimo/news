@@ -38,65 +38,101 @@ def preprocess_training_data():
         print(f"读取数据时发生错误：{str(e)}")
         return None, None
 
+def analyze_user_history(news_df, history_news_ids):
+    """分析用户历史点击的新闻特征"""
+    history_news = news_df[news_df['NewsId'].isin(history_news_ids)]
+    news_titles = []
+    if history_news.empty:
+        return ""
+    for index, row in history_news.iterrows():
+        if pd.notna(row['Title']):
+            news_titles.append(row['Title'])
+    # 使用hierarchical_crew分析用户历史点击
+    inputs = {
+        'news_data': news_titles
+    }
+    
+    # 获取大模型分析结果
+    analysis_result = hierarchical_crew.kickoff(inputs)
+    return analysis_result.raw
+
+def get_news_info(news_df, news_id):
+    """获取新闻的详细信息"""
+    news = news_df[news_df['NewsId'] == news_id]
+    if news.empty:
+        return None
+    return news.iloc[0]
+
 def run():
-    # 获取数据
     news_df, behaviors_df = preprocess_training_data()
     if news_df is None or behaviors_df is None:
         return
         
-    # 创建结果记录列表
     results = []
     total_count = 0
     correct_count = 0
     
-    # 遍历行为数据集的每一行
     for index, row in behaviors_df.iterrows():
         if pd.notna(row['History']):
-            historyNews = row['History'].spilt();
-            news_data = []
-            for news_id in historyNews:
-                news_data.append(news_df[news_df['News ID'] == news_id])
+            history_news_ids = row['History'].split()
+            
+            # 分析用户历史点击
+            history_analysis = analyze_user_history(news_df, history_news_ids)
+            
+            # 处理当前展示的新闻
+            impressions = row['Impressions'].split()
+            impression_news = []
+            
+            # 收集所有展示新闻的信息
+            for imp in impressions:
+                news_id, actual_click = imp.split('-')
+                news_info = get_news_info(news_df, news_id)
+                if news_info is not None:
+                    impression_news.append({
+                        'news_id': news_id,
+                        'title': news_info['Title'],
+                        'actual_click': int(actual_click)
+                    })
+            
             # 准备输入数据
             inputs = {
-                'news_data': news_df
+                'user_history': history_analysis,
+                'news_data': [news['title'] for news in impression_news]
             }
             
-            print(f"处理第 {index + 1} 个用户的推荐...")
+            print(f"处理用户 {row['UserId']} 的推荐...")
+            
             # 获取模型预测结果
             prediction = next_news_crew.kickoff(inputs)
             
-            # 处理实际点击数据
-            actual_clicks = []
-            for imp in row['Impressions'].split():
-                news_id, clicked = imp.split('-')
-                if clicked == '1':
-                    actual_clicks.append(news_id)
+            # 处理预测结果
+            predicted_clicks = [int(pred)  for pred in prediction.raw.split(',')]
             
             # 记录结果
-            result = {
-                'index': index,
-                'user_id': row['User ID'],
-                'actual_clicks': actual_clicks,
-                'predicted_recommendations': prediction.raw,
-                'is_correct': any(rec in actual_clicks for rec in prediction.raw.split())
-            }
-            results.append(result)
+            for i, news in enumerate(impression_news):
+                result = {
+                    'index': index,
+                    'user_id': row['UserId'],
+                    'news_id': news['news_id'],
+                    'news_title': news['title'],
+                    'actual_click': news['actual_click'],
+                    'predicted_click': predicted_clicks[i] if i < len(predicted_clicks) else 0,
+                    'is_correct': (predicted_clicks[i] if i < len(predicted_clicks) else 0) == news['actual_click']
+                }
+                results.append(result)
+                
+                if result['is_correct']:
+                    correct_count += 1
+                total_count += 1
             
-            # 统计正确数量
-            if result['is_correct']:
-                correct_count += 1
-            total_count += 1
-            
-            # 实时打印准确率
             accuracy = (correct_count / total_count) * 100
             print(f"当前准确率: {accuracy:.2f}%")
     
-    # 将结果保存到CSV文件
+    # 保存结果
     results_df = pd.DataFrame(results)
     output_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'results', 'recommend_results.csv')
     results_df.to_csv(output_path, index=False, encoding='utf-8')
     
-    # 打印最终统计结果
     print("\n最终统计结果:")
     print(f"总样本数: {total_count}")
     print(f"正确预测数: {correct_count}")

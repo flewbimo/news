@@ -47,14 +47,21 @@ disentangling_crew = Crew(
     process=Process.sequential,
     verbose=True,
 )
-
-next_news_crew = Crew(
+hierarchical_crew = Crew(
     agents=[
         hierarchical_agent,
-        next_news_agent,
     ],
     tasks=[
         hierarchical_task,
+    ],
+    process=Process.sequential,
+    verbose=True,
+)
+next_news_crew = Crew(
+    agents=[
+        next_news_agent,
+    ],
+    tasks=[
         next_news_task,
     ],
     process=Process.sequential,

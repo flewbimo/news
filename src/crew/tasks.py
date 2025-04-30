@@ -14,7 +14,7 @@ class AnalysisTasks:
         return Task(
             description=(
                 """
-                对于用户点击的新闻({news_data}),
+                对于用户点击的新闻集合({news_data}),
                 得到新闻文章的高层次兴趣向量和低层次兴趣向量.
                 基于语言知识和语义理解能力，对新闻进行深度分析。比如对 “人工智能”“芯片” 相关的新闻，
                 理解这些新闻背后的技术概念、行业动态等信息，进而生成能表征高层次兴趣的向量表示。
@@ -52,13 +52,13 @@ class AnalysisTasks:
         return Task(
             description=(
                 """
-                根据用户的兴趣图谱,判断新闻({news_data})是否是用户感兴趣的新闻.
+                根据用户的兴趣图谱({user_history}),判断新闻集({news_data})是否是用户感兴趣的新闻.
                 如果新闻是用户感兴趣的,则返回"1",
                 如果新闻不是用户感兴趣的,则返回"0".
                 """
             ),
             expected_output="""
-                输出"1"或"0".
+                输出"1"或"0",用逗号隔开.
             """,
             agent=CustomAgents().next_news_prediction_module(),
         )
