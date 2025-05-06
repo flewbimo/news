@@ -3,7 +3,9 @@ from crewai import Task
 from textwrap import dedent
 from agents import CustomAgents
 from tools import AnalysisTools
+from tools import ModelsTools
 article_analysis_tools = AnalysisTools()
+moduls_tools = ModelsTools()
 
 class AnalysisTasks:
     def __init__(self):
@@ -46,6 +48,7 @@ class AnalysisTasks:
                 输出"True"或"False".
             """,
             agent=CustomAgents().disentangling_interest_learning_module(),
+            tools=[moduls_tools.classification_tool,moduls_tools.factChecking_tool,moduls_tools.sentiment_tool]
         )
 
     def next_news_prediction(self):
