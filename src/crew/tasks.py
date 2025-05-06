@@ -48,7 +48,8 @@ class AnalysisTasks:
                 输出"True"或"False".
             """,
             agent=CustomAgents().disentangling_interest_learning_module(),
-            tools=[moduls_tools.classification_tool,moduls_tools.factChecking_tool,moduls_tools.sentiment_tool]
+            #tools=[moduls_tools.classification_tool()]
+            tools=[moduls_tools.classification_tool(),moduls_tools.factChecking_tool(),moduls_tools.sentiment_tool()]
         )
 
     def next_news_prediction(self):

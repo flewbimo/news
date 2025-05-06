@@ -61,8 +61,8 @@ class CustomAgents:
             allow_delegation=False,
             verbose=True,
             llm=self.CurrentLLM,
-            tools=[moduls_tools.classification_tool,
-                   moduls_tools.factChecking_tool, moduls_tools.sentiment_tool]
+            tools=[moduls_tools.classification_tool(),
+                   moduls_tools.factChecking_tool(), moduls_tools.sentiment_tool()]
 
         )
     #用于综合以上信息进行推荐

@@ -57,7 +57,6 @@ class AnalysisTools:
         return MySQLQueryTool()
 
 
-# 初始化模型（只加载一次，提高效率）
 sentiment_analyzer = pipeline("sentiment-analysis")
 news_classifier = pipeline("zero-shot-classification",
                            model="facebook/bart-large-mnli")
