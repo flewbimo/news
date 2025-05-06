@@ -2,13 +2,16 @@ import ssl
 import warnings
 from crewai import Agent, LLM
 from tools import AnalysisTools
+from tools import ModelsTools
+
 from config import MODEL_CONFIG
 from config import API_CONFIG
 
 ssl._create_default_https_context = ssl._create_unverified_context
 warnings.filterwarnings("ignore", category=UserWarning, module='urllib3')
 
-
+article_analysis_tools = AnalysisTools()
+moduls_tools = ModelsTools()
 
 
 class CustomAgents:
@@ -58,6 +61,8 @@ class CustomAgents:
             allow_delegation=False,
             verbose=True,
             llm=self.CurrentLLM,
+            tools=[moduls_tools.classification_tool,
+                   moduls_tools.factChecking_tool, moduls_tools.sentiment_tool]
 
         )
     #用于综合以上信息进行推荐
