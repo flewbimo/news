@@ -1,4 +1,3 @@
-
 import ssl
 import warnings
 
@@ -18,6 +17,8 @@ next_news_agent = CustomAgents().next_news_prediction_module()
 
 hierarchical_task = AnalysisTasks().hierarchical_interest_learning()
 disentangling_task = AnalysisTasks().disentangling_interest_learning()
+disentangling_back_task = AnalysisTasks().disentangling_back()
+disentangling_adjust_task = AnalysisTasks().disentangling_adjust()
 next_news_task = AnalysisTasks().next_news_prediction()
 
 
@@ -43,6 +44,26 @@ disentangling_crew = Crew(
     ],
     tasks=[
         disentangling_task,
+    ],
+    process=Process.sequential,
+    verbose=True,
+)
+disentangling_back_crew = Crew(
+    agents=[
+        disentangling_agent,
+    ],
+    tasks=[
+        disentangling_back_task,
+    ],
+    process=Process.sequential,
+    verbose=True,
+)
+disentangling_adjust_crew = Crew(
+    agents=[
+        disentangling_agent,
+    ],
+    tasks=[
+        disentangling_adjust_task,
     ],
     process=Process.sequential,
     verbose=True,

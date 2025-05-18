@@ -39,19 +39,62 @@ class AnalysisTasks:
         return Task(
             description=(
                 """
-                检查新闻"({news})"的真实性,
-                如果新闻是虚假的,则返回"False",
-                如果新闻是真实的,则返回"True".
+                根据之前总结的经验库({experience_library}),
+                你需要判断以下新闻的真实性：
+                "{news}"
+                请根据你的判断自由选择以下一个或多个工具：
+                - Search the internet with Serper：搜索新闻
+                - Read website content：提取网页内容
+                - SentimentAnalysisTool：分析情感倾向
+                - NewsClassificationTool：判断新闻主题
+
                 """
             ),
             expected_output="""
-                输出"True"或"False".
+                输出"True"或"False".然后回车,输出判断依据
             """,
             agent=CustomAgents().disentangling_interest_learning_module(),
+            tools=[article_analysis_tools.search_tool(), article_analysis_tools.scrape_tool(
+            ), moduls_tools.classification_tool(), moduls_tools.sentiment_tool()],
             #tools=[moduls_tools.classification_tool()]
-            tools=[moduls_tools.classification_tool(),moduls_tools.factChecking_tool(),moduls_tools.sentiment_tool()]
+            #tools=[moduls_tools.classification_tool(),moduls_tools.sentiment_tool()]
         )
 
+    def disentangling_back(self):
+        return Task(
+            description=(
+                """
+                该任务用来得到经验或者反思,无需使用任何工具
+                新闻({news})的真实性结果是({result}),而你的上一个任务判断其真实性为({judgement}),上一个任务做出这个选择的原因是({reason})。
+                如果上一个任务选择正确，请记录经验；
+                如果上一个任务选择错误，请进行反思并记录。
+                """
+            ),
+            expected_output="""
+                输出得到的经验或者反思
+            """,
+            agent=CustomAgents().disentangling_interest_learning_module(),
+            tools=[],            
+            # tools=[moduls_tools.classification_tool()]
+        )
+
+    def disentangling_adjust(self):
+        return Task(
+            description=(
+                """
+                该任务用来总结之前的反思并更新新闻判断策略,
+                对于反思得到的经验({experience}),请总结关键之处并统合到目前的经验库({experience_library})中,
+                请尽量精简经验库,最好保持在10条以内,否则为已有的经验库先进行总结
+                将统合完成的经验库输出,
+                """
+            ),
+            expected_output="""
+                输出统合完成的经验库
+            """,
+            agent=CustomAgents().disentangling_interest_learning_module(),
+            tools=[],
+            # tools=[moduls_tools.classification_tool()]
+        )
     def next_news_prediction(self):
         return Task(
             description=(

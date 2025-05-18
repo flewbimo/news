@@ -12,6 +12,7 @@ from crewai_tools import (
     ScrapeWebsiteTool,
     SerperDevTool
 )
+import pandas as pd
 
 
 ssl._create_default_https_context = ssl._create_unverified_context
@@ -19,27 +20,27 @@ warnings.filterwarnings("ignore", category=UserWarning, module='urllib3')
 
 load_dotenv()
 
-host = os.getenv("MYSQL_HOST", "localhost")
-user = os.getenv("MYSQL_USER", "root")
-password = os.getenv("MYSQL_PASSWORD", "password")
-database = os.getenv("MYSQL_DATABASE", "test_db")
-engine = create_engine(
-    f"mysql+pymysql://{user}:{password}@{host}/{database}")
-db = SQLDatabase(engine)
-query_tool = QuerySQLDataBaseTool(db=db)
-query = "SELECT * FROM myurl"
+# host = os.getenv("MYSQL_HOST", "localhost")
+# user = os.getenv("MYSQL_USER", "root")
+# password = os.getenv("MYSQL_PASSWORD", "password")
+# database = os.getenv("MYSQL_DATABASE", "test_db")
+# engine = create_engine(
+#     f"mysql+pymysql://{user}:{password}@{host}/{database}")
+# db = SQLDatabase(engine)
+# query_tool = QuerySQLDataBaseTool(db=db)
+# query = "SELECT * FROM myurl"
 
 
-class MySQLQueryTool(RagTool):
-    name: str = "MySQLQueryTool"  
-    description: str = "执行 SQL 查询并返回 MySQL 数据库的查询结果"
+# class MySQLQueryTool(RagTool):
+#     name: str = "MySQLQueryTool"  
+#     description: str = "执行 SQL 查询并返回 MySQL 数据库的查询结果"
 
-    def _run(self, query: str) -> str:
-        """执行 SQL 查询"""
-        try:
-            return db.run(query)
-        except Exception as e:
-            return f"MySQL 查询失败: {str(e)}"
+#     def _run(self, query: str) -> str:
+#         """执行 SQL 查询"""
+#         try:
+#             return db.run(query)
+#         except Exception as e:
+#             return f"MySQL 查询失败: {str(e)}"
 
 
         
@@ -56,13 +57,20 @@ class AnalysisTools:
     def database_tool(self):
         return MySQLQueryTool()
 
+    def checkTrue_tool(self):
+        return SnopesFactCheckTool()
+
 
 sentiment_analyzer = pipeline("sentiment-analysis")
 news_classifier = pipeline("zero-shot-classification",
                            model="facebook/bart-large-mnli")
 fact_checker = pipeline("zero-shot-classification",
                         model="facebook/bart-large-mnli")
-
+current_dir = os.path.dirname(os.path.abspath(__file__))
+data_path = os.path.join(os.path.dirname(os.path.dirname(
+    current_dir)), 'src', 'sets', 'snopeswithsum.csv')
+# 读取CSV文件，只读取前50行
+df = pd.read_csv(data_path, encoding='utf-8', nrows=50)
 
 class SentimentAnalysisTool(RagTool):
     name: str = "SentimentAnalysisTool"
@@ -110,6 +118,26 @@ class FactCheckingTool(RagTool):
             return f"事实验证失败: {str(e)}"
 
 
+class SnopesFactCheckTool(RagTool):
+    name: str = "SnopesFactCheckTool"
+    description: str = "根据新闻标题查询Snopes数据库中的新闻真假信息"
+
+    def __init__(self):
+        pass   
+    def _run(self, title: str) -> str:
+        """根据新闻标题查询真假信息"""
+        try:
+            # 在数据集中查找匹配的标题
+            result = self.df[self.df['question'].str.contains(title, case=False, na=False)]
+            if len(result) > 0:
+                # 返回第一个匹配结果的真假信息
+                return f"标题: {result.iloc[0]['question']}\n真假: {result.iloc[0]['rate']}"
+            else:
+                return f"未找到标题为 '{title}' 的新闻"
+        except Exception as e:
+            return f"查询失败: {str(e)}"
+
+
 class ModelsTools:
     def __init__(self):
         pass
@@ -122,6 +150,8 @@ class ModelsTools:
 
     def factChecking_tool(self):
         return FactCheckingTool()
+        
+    
     
    
     

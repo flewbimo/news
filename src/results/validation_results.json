@@ -1,0 +1,482 @@
+[
+    {
+        "index": 199,
+        "news": "‘Muslim Prayer Curtain’ in the White House?",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: 多个可靠来源如Reuters、Snopes和FactCheck.org已证实该说法为虚假新闻。所谓的“Muslim Prayer Curtain”实际上是自1960年代以来就存在于白宫的金色丝绸窗帘，与穆斯林祈祷无关。",
+        "is_correct": true
+    },
+    {
+        "index": 201,
+        "news": "Obama Bribed Iran $400 Million to Release U.S. Prisoners?",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "The $400 million payment to Iran was part of a settlement related to a failed arms deal from the 1970s and was not a direct ransom payment for the release of U.S. prisoners. However, the timing of the payment coincided with the release of the prisoners, leading to criticism and the perception of a link between the two events. The Obama administration maintained that the negotiations were separate, but the U.S. withheld the delivery of the cash until the prisoners were allowed to leave Iran, which created the appearance of a contingent arrangement.",
+        "is_correct": true
+    },
+    {
+        "index": 203,
+        "news": "Denzel Washington Switches to Trump",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据：多个可靠的事实核查网站和主流媒体（如FactCheck.org和Snopes.com）已明确指出，Denzel Washington并未公开支持Donald Trump。",
+        "is_correct": true
+    },
+    {
+        "index": 204,
+        "news": "Deceased FBI Agent Found at Trump Tower with Silenced Pistol",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "The story has been debunked by Snopes, a reliable fact-checking website, indicating that a deceased FBI agent was not found at Trump Tower with a silenced pistol.",
+        "is_correct": true
+    },
+    {
+        "index": 206,
+        "news": "Black Lives Matter Co-Founder Poops on Ice Rink",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "The claim is not supported by any credible evidence and has been debunked by Snopes.com, a reliable fact-checking website.",
+        "is_correct": true
+    },
+    {
+        "index": 209,
+        "news": "‘Mike & Molly’ Cancelled Due to Melissa McCarthy’s Weight Loss?",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "The news headline \"‘Mike & Molly’ Cancelled Due to Melissa McCarthy’s Weight Loss?\" is false. According to Snopes, this claim was part of a fake news story created to promote a weight loss product. The cancellation of the show was due to other factors, such as contract expirations and not related to McCarthy's weight loss.",
+        "is_correct": true
+    },
+    {
+        "index": 211,
+        "news": "Customer Liability for Chipped Card (EMV) Fraud",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "The news statement is misleading as it suggests that consumers are liable for fraud when using chipped cards, which is not accurate according to reliable sources like Snopes.com.",
+        "is_correct": true
+    },
+    {
+        "index": 213,
+        "news": "Florida Officer Mistakes Donut Glaze for Methampetamines",
+        "true_label": "True",
+        "prediction": "True",
+        "reason": "判断依据：根据搜索结果，有多家可靠媒体如CBS News和ABC News报道了这一事件，详细描述了事件的经过，即一名佛罗里达州的警察误将甜甜圈的糖霜当成了甲基苯丙胺（冰毒），并在进一步检测后证实了这一点。这些报道提供了事件的时间、地点和详细情况，符合新闻真实性的判断标准。",
+        "is_correct": true
+    },
+    {
+        "index": 214,
+        "news": "John F. Kennedy Donated His Entire Presidential Salary to Charity",
+        "true_label": "True",
+        "prediction": "True",
+        "reason": "判断依据: 多个可靠来源证实约翰·F·肯尼迪总统将其全部总统薪水捐赠给慈善机构。",
+        "is_correct": true
+    },
+    {
+        "index": 215,
+        "news": "UN Backs Secret Obama Takeover of Police",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: 事实核查网站Snopes.com将该新闻评为False，且其他来源多为不可靠的论坛或个人观点，缺乏权威性和科学证据支持。",
+        "is_correct": true
+    },
+    {
+        "index": 218,
+        "news": "Khizr Khan Received $375,000 from the Clinton Foundation",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "Khizr Khan did not receive $375,000 from the Clinton Foundation. The document claiming such a transaction is heavily redacted and forged, with inconsistencies that make it highly unreliable.",
+        "is_correct": true
+    },
+    {
+        "index": 219,
+        "news": "John Kerry Insults Ronald Reagan’s Memory",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "The claim \"John Kerry Insults Ronald Reagan's Memory\" is false. The words attributed to John Kerry were never spoken by him; they were taken from a spoof news article published on a John Kerry parody site. John Kerry actually paid his respects to Ronald Reagan and attended his funeral, as reported by credible sources such as The Washington Post and CBS News.",
+        "is_correct": true
+    },
+    {
+        "index": 220,
+        "news": "The Young Family",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "The news title \"The Young Family\" lacks specific context and detailed content, making it impossible to verify its authenticity based on the available search results.",
+        "is_correct": true
+    },
+    {
+        "index": 221,
+        "news": "Casey Anthony Obtains License for Home Daycare Business in Florida",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: ",
+        "is_correct": true
+    },
+    {
+        "index": 222,
+        "news": "Obama Declares His Family Will Move to Canada If Trump Is Elected",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: The news has been debunked by reliable fact-checking websites such as Snopes, which categorize the statement as a fake news story. Additionally, multiple sources confirm that this is a hoax propagated during the 2016 election period.",
+        "is_correct": true
+    },
+    {
+        "index": 223,
+        "news": "Trump Donates 50k to Charleston Shooter Family to Move Him to Safer Prison",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: Snopes, a reputable fact-checking website, has rated the claim as false. Additionally, the claim appears to have originated from a fake news site, as indicated by the Snopes article.",
+        "is_correct": true
+    },
+    {
+        "index": 224,
+        "news": "Donald Trump Kicked a Crying Baby Out of a Political Rally",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "The news statement exaggerates the event. Donald Trump asked a woman with a crying baby to leave his rally, but he did not physically \"kick\" the baby out.",
+        "is_correct": true
+    },
+    {
+        "index": 225,
+        "news": "Navy SEALs Ordered to Remove ‘Don’t Tread on Me’ Patches",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "The news that Navy SEALs were ordered to remove 'Don’t Tread on Me' patches is not true. Multiple reliable sources, including Snopes and Military.com, confirm that these patches are still authorized for wear by Naval Special Warfare personnel.",
+        "is_correct": true
+    },
+    {
+        "index": 227,
+        "news": "Trump: You People Really Believed Me?",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: The phrase \"Trump: You People Really Believed Me?\" does not appear to be a verified news statement from reliable sources. It seems more like a rhetorical comment rather than an official news report.",
+        "is_correct": true
+    },
+    {
+        "index": 228,
+        "news": "Wisconsin Girl Dies as a Result of Receiving Gardasil HPV Vaccine",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据：根据官方医学检验办公室的报告，这位12岁的威斯康辛女孩的死亡并非由HPV疫苗引起，而是由一种常见于苯海拉明（如Benadryl）中的成分引起的毒性水平过高所致。多个可靠来源，包括主流媒体和官方记录，均证实了这一点。因此，该新闻声明不真实。",
+        "is_correct": true
+    },
+    {
+        "index": 230,
+        "news": "Loretta Lynch: ‘Confederate Flag Tattoos Must All Be Removed IMMEDIATELY’",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: The claim has been debunked by reliable sources like Snopes.com, which rated it as false.",
+        "is_correct": true
+    },
+    {
+        "index": 231,
+        "news": "Darboy Walmart Abduction Warning",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据：根据搜索结果，\"Darboy Walmart Abduction Warning\" 这条新闻被 Snopes.com 等事实核查网站标记为虚假信息。该新闻是一个广泛传播的网络谣言，描述了一个在 Walmart 发生的绑架事件，但实际上并没有可靠的证据支持这一事件的真实性。",
+        "is_correct": true
+    },
+    {
+        "index": 233,
+        "news": "Does a Viral Photo Show a Real Baby Platypus?",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "The viral photo of a baby platypus is not real. The picture actually shows a doll made by a Russian artist named Oso Polar. Multiple reliable sources, including Snopes and Science Alert, have confirmed this.",
+        "is_correct": true
+    },
+    {
+        "index": 235,
+        "news": "The Narilatha Flower",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据：",
+        "is_correct": true
+    },
+    {
+        "index": 237,
+        "news": "Islamic Justice — Boy Punished for Stealing Bread",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "这则新闻是基于一个路边表演的恶作剧，而非真实的伊斯兰正义惩罚。",
+        "is_correct": true
+    },
+    {
+        "index": 238,
+        "news": "Donald Trump Made Donations to NAMBLA?",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: The claim that Donald Trump made donations to NAMBLA is debunked by Snopes.com, a reputable fact-checking website, which states that the claim is the result of a prank by Reddit users.",
+        "is_correct": true
+    },
+    {
+        "index": 240,
+        "news": "Snowden Pronounced Dead by His Girlfriend in Russia",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: 根据Snopes.com和其他可靠来源的信息，该新闻声明被认定为假新闻。",
+        "is_correct": true
+    },
+    {
+        "index": 241,
+        "news": "Did Hillary Clinton Say Christians in America Must Deny Their Faith?",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "Hillary Clinton's speech on improving the plight of women and girls worldwide was misrepresented as a demand for American Christians to deny their faith. The claim is false.",
+        "is_correct": true
+    },
+    {
+        "index": 243,
+        "news": "Tim Kaine Admits to Open Marriage on Twitter",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: 根据Snopes.com的调查结果，这条Twitter信息是伪造的，并没有出现在Tim Kaine的官方Twitter账号上。此外，该消息来源于一个不可信的网站，并且与Tim Kaine的政策推文风格不符。",
+        "is_correct": true
+    },
+    {
+        "index": 244,
+        "news": "‘Superman Is Coming in Supergirl’ Poster",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: 该新闻标题中的海报被多个可靠来源认定为恶搞或粉丝制作，并未得到官方确认或发布。",
+        "is_correct": true
+    },
+    {
+        "index": 245,
+        "news": "Is This a Live Panda Flown from China to U.S. in Business Class?",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判定依据：多个可靠来源，包括Snopes和事实核查网站，确认该图像是为了宣传目的而伪造的。",
+        "is_correct": true
+    },
+    {
+        "index": 246,
+        "news": "Hillary Clinton Referenced RFK Assassination as Reason to Continue 2008 Campaign",
+        "true_label": "True",
+        "prediction": "True",
+        "reason": "Hillary Clinton indeed referenced the RFK assassination as a reason to continue her 2008 campaign, as confirmed by multiple credible sources, including The Guardian.",
+        "is_correct": true
+    },
+    {
+        "index": 247,
+        "news": "‘Weed Dealers’ Using Pokémon GO to Hook Children on Drugs",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: The claim \"‘Weed Dealers’ Using Pokémon GO to Hook Children on Drugs\" has been fact-checked by Snopes, which rates it as False. The claim originated from a satirical Facebook page called \"Christians Against Drugs\" and was intended as a joke, not a factual statement.",
+        "is_correct": true
+    },
+    {
+        "index": 248,
+        "news": "Hillary Clinton Medical Records ‘Leaked’",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据：根据FactCheck.org的文章，所谓的“Hillary Clinton Medical Records 'Leaked'”是虚假的。Clinton的长期医生Lisa Bardack明确表示这些文件是“false”，并不是由她撰写的，也不基于任何医学事实。因此，这条新闻是虚假的。",
+        "is_correct": true
+    },
+    {
+        "index": 249,
+        "news": "Did Ronald Reagan Predict a Trump Presidency?",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "The claim that Ronald Reagan predicted a Trump presidency is false. Multiple fact-checking sources, including FactCheck.org, Snopes.com, and CNN, have debunked this claim as fabricated. There is no credible evidence or documentation to support such a prediction.",
+        "is_correct": true
+    },
+    {
+        "index": 250,
+        "news": "Jesus Statue ‘Miraculously’ Opens Eyes",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "The news is false because the video showing the statue of Jesus opening its eyes has been found to show signs of tampering, according to fact-checking by Snopes.com.",
+        "is_correct": true
+    },
+    {
+        "index": 251,
+        "news": "Gary Sinise Tweets Hillary Clinton About Guns",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "The tweet between Gary Sinise and Hillary Clinton about guns is fake, as confirmed by the Snopes fact-check article.",
+        "is_correct": true
+    },
+    {
+        "index": 252,
+        "news": "Iran Blurs Photograph Showing Olympics Volleyball Player",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "Iran Blurs Photograph Showing Olympics Volleyball Player is a hoax, as confirmed by multiple fact-checking sources like Snopes and BuzzFeed.",
+        "is_correct": true
+    },
+    {
+        "index": 253,
+        "news": "Are Bees Born Fully Grown?",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据：根据搜索结果，蜜蜂并不是出生时就是完全长大的。它们的发育过程包括从卵到幼虫、蛹，最后才成为成虫的几个阶段。这个生命周期是已知的，并在多个可靠来源中得到了验证。例如，\"Honey Bee Life Span: Life Cycle & Phases of Honeybees | Orkin\" 和 \"Honey bee life cycle - Wikipedia\" 等来源都明确指出蜜蜂的发育需要经历多个阶段。",
+        "is_correct": true
+    },
+    {
+        "index": 255,
+        "news": "Nothing Compares to the Iowa State Fair … Logo",
+        "true_label": "False",
+        "prediction": "True",
+        "reason": "判断依据：搜索结果显示该声明是爱荷华州博览会官方口号的一部分，并在多个可靠来源中得到验证。",
+        "is_correct": false
+    },
+    {
+        "index": 256,
+        "news": "#SaveTwitter? Social Media Network Not Shutting Down in 2017",
+        "true_label": "False",
+        "prediction": "True",
+        "reason": "判断依据: 多个权威来源和官方声明都证实了Twitter并未计划在2017年关闭，且明确否认了相关谣言。",
+        "is_correct": false
+    },
+    {
+        "index": 258,
+        "news": "Angelina Jolie Death Hoax",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: 多个可靠来源如Snopes.com和主流新闻媒体已经确认这是一个虚假的死亡谣言。",
+        "is_correct": true
+    },
+    {
+        "index": 260,
+        "news": "Plane Crash-Lands on Beach",
+        "true_label": "False",
+        "prediction": "True",
+        "reason": "Recent news articles confirm that a plane crash-landed on a beach. For example, a small plane crash-landed on a Fire Island beach on June 24, 2024, and another incident occurred in Jamaica Beach, Galveston, where a small plane made an emergency landing without injuries.",
+        "is_correct": false
+    },
+    {
+        "index": 261,
+        "news": "Fifty Former National Security Officials Disavow Trump in Formal Statement",
+        "true_label": "True",
+        "prediction": "True",
+        "reason": "依据: 多个可靠来源如Snopes、CNN、BBC、ABC News和The New York Times均报道了这一事件，确认了五十名前国家安全官员在正式声明中公开反对特朗普。",
+        "is_correct": true
+    },
+    {
+        "index": 263,
+        "news": "Donald Trump: Utah Is a ‘Boring, Small State’ with ‘Strange People’",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "The statement \"Donald Trump: Utah Is a 'Boring, Small State' with 'Strange People'\" is false. The Snopes article confirms that the tweet was fabricated and not posted by Donald Trump. The fake tweet was likely created using a website that allows users to fabricate fake tweets.",
+        "is_correct": true
+    },
+    {
+        "index": 264,
+        "news": "Person Who Leaked Hillary Clinton’s Medical Records Found Dead",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: 多个可靠来源，包括Snopes和Reuters，已明确指出该新闻是虚假的，属于\"Clinton body count\"阴谋论的一部分，并且已被广泛揭穿。",
+        "is_correct": true
+    },
+    {
+        "index": 265,
+        "news": "Early Morning Explosion in DC Allegedly Leaves Yet Another DNC Staffer Dead",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据：搜索结果显示，该新闻标题与Seth Rich的死亡有关，但Seth Rich是在2016年被枪杀，而非爆炸事件。此外，Snopes网站明确指出这条新闻是虚假的。",
+        "is_correct": true
+    },
+    {
+        "index": 266,
+        "news": "Did a Man Die Demonstrating a Window’s Strength?",
+        "true_label": "True",
+        "prediction": "True",
+        "reason": "判断依据: 多个可靠来源，包括事实核查网站Snopes.com，以及主流媒体如Reddit、UNILAD和Ladbible，都提供了一致的信息，证实了这一事件的真实性。这些来源共同描述了律师Garry Hoy在1993年试图演示窗户强度时不慎坠落身亡的事件。",
+        "is_correct": true
+    },
+    {
+        "index": 267,
+        "news": "4-Year-Old Boy Accused of Hacking FBI Database",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "The story about a 4-year-old boy hacking the FBI database is a fabrication from the fake news website World News Daily Report. Snopes, a reliable fact-checking website, has rated this claim as false.",
+        "is_correct": true
+    },
+    {
+        "index": 268,
+        "news": "Hiroshima vs. Detroit",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "The comparison between Hiroshima and Detroit is highly misleading and inaccurate. The images used do not depict modern-day Hiroshima accurately, and the implication that Detroit's decline is solely due to Democratic policies is not supported by historical facts. Detroit's decline is complex, with multiple factors contributing, including deindustrialization, racial tensions, and economic shifts, not just political policies.",
+        "is_correct": true
+    },
+    {
+        "index": 269,
+        "news": "106 Dead In California Music Festival Bombing",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据：根据搜索结果，这条新闻似乎是虚假信息。Snopes.com的报道指出这是一条假新闻，而其他相关报道涉及的是以色列的音乐节袭击，与加州无关。此外，其他可靠来源并未提及加州音乐节爆炸事件导致106人死亡的情况。",
+        "is_correct": true
+    },
+    {
+        "index": 270,
+        "news": "Were Homeowners Encouraged to Burn Batteries to Prevent Chimney Soot?",
+        "true_label": "True",
+        "prediction": "False",
+        "reason": "判断依据:",
+        "is_correct": false
+    },
+    {
+        "index": 272,
+        "news": "Third Apple Co-Founder Sold Share Now Worth Billions for $800",
+        "true_label": "True",
+        "prediction": "True",
+        "reason": "    The news statement matches verified historical facts from multiple credible sources. Ronald Wayne did sell his 10% stake in Apple for $800, which would be worth billions today.",
+        "is_correct": true
+    },
+    {
+        "index": 274,
+        "news": "The Strange Death of Elisa Lam",
+        "true_label": "True",
+        "prediction": "True",
+        "reason": "判断依据: 多个可靠来源（如Wikipedia和BBC）确认了Elisa Lam的死亡事件，并且官方结论为意外溺水。",
+        "is_correct": true
+    },
+    {
+        "index": 275,
+        "news": "Roger Ailes: ‘The Truth Is Whatever People Will Believe’",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "Roger Ailes did not say \"The Truth Is Whatever People Will Believe\" in the context attributed to him. The quote was found in a fictional book by Joseph Heller, not in any real statement by Roger Ailes.",
+        "is_correct": true
+    },
+    {
+        "index": 276,
+        "news": "Was Sharia Law Established in Texas?",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据：  ",
+        "is_correct": true
+    },
+    {
+        "index": 279,
+        "news": "Forever 21 Swastika Rings",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "Forever 21 has denied selling swastika rings, and multiple fact-checking sites have confirmed that the story is a hoax.",
+        "is_correct": true
+    },
+    {
+        "index": 282,
+        "news": "Did a Washington School District Ban Pork Due to a Muslim Outcry?",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "The news statement is false. The Kent School District had reduced the amount of pork offered on school menus years ago for various reasons, including health guidelines and cultural preferences, but not due to recent complaints by Muslim families. The district still serves pork in school cafeterias.",
+        "is_correct": true
+    },
+    {
+        "index": 283,
+        "news": "Media Ignore Kim Rhode’s Sixth Olympic Medal",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "Media coverage of Kim Rhode's sixth Olympic medal can be found in multiple credible sources, including Snopes, PolitiFact, WFLA, Los Angeles Times, and The Guardian. Therefore, the statement that \"Media Ignore Kim Rhode’s Sixth Olympic Medal\" is incorrect.",
+        "is_correct": true
+    },
+    {
+        "index": 284,
+        "news": "ABC News Poll Shows Trump with Wide Lead on Clinton",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: 根据Snopes和其他可靠来源的信息，ABC News并未发布显示特朗普大幅领先克林顿的民调结果，实际上克林顿在多个ABC News的民调中领先。",
+        "is_correct": true
+    }
+]

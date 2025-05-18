@@ -1,0 +1,234 @@
+index,user_id,news_id,news_title,actual_click,predicted_click,is_correct
+0,U87243,N78206,Sarah Hyland documents painful tattoo removal,0,0,True
+0,U87243,N26368,"Roommate, her boyfriend charged in death of missing Atlanta student",0,0,True
+0,U87243,N7578,This little Montana town is full of Power Wagons and Mustangs,0,0,True
+0,U87243,N58592,Christmas tree decorating ideas for every style and budget,0,1,False
+0,U87243,N19858,100 vintage baby names coming back into style,0,1,False
+0,U87243,N58258,Stop! Read This Guide Before You Buy an Air Fryer.,0,1,False
+0,U87243,N18478,"LSU, Ohio State, and Clemson control path to College Football Playoff, but who else does too?",0,0,True
+0,U87243,N2591,Meghan Markle and Prince Harry Reunite with Kate Middleton and Prince William for Remembrance Service,0,0,True
+0,U87243,N97778,Industries Where Your Job Is Most Likely To Get Outsourced,0,0,True
+0,U87243,N32954,Distressing photos show glaciers that are disappearing or on the brink of collapse around the world,0,0,True
+0,U87243,N94157,"John Travolta Shares Rare Photo of Son Ben, 8, in Plane Cockpit: He's 'Taking My Place!'",1,0,False
+0,U87243,N39404,2020 Democratic Voters Divided Down Demographic Lines,0,0,True
+0,U87243,N108809,"Week in celebrity photos for Nov. 4-8, 2019",0,0,True
+0,U87243,N78699,Rep. Ilhan Omar is accused of 'dog whistle' anti-Semitism after she posts tweet implying billionaire businessman Leon Cooperman is only supporting Michael Bloomberg's presidential run because he is Jewish,1,0,False
+0,U87243,N71090,Missing California hiker found dead at top of glacier just weeks before baby was due,1,0,False
+0,U87243,N40282,Judge includes law student's toddler during sweet swearing-in ceremony,0,0,True
+0,U87243,N31174,Broadway Actress Laurel Griggs Dies at Age 13,1,0,False
+0,U87243,N37924,A Texas woman was legally declared dead while still alive,0,0,True
+0,U87243,N27822,"An investor's guide to space, Wall Street's next trillion-dollar industry",0,0,True
+1,U598644,N47996,Oprah's list of favorite things is full of great holiday gifts under $50,0,0,True
+1,U598644,N82719,Widow Sues Truth Aquatics Owner In Conception Boat Fire That Killed 34,0,0,True
+1,U598644,N117066,"How Big Is Your Turkey? Most Americans Pick This Smaller Size, Says Survey",0,0,True
+1,U598644,N8491,'It's the biggest gift I've ever gotten:' Iraq War veteran who lost leg and suffered significant trauma will come home to a hero's house in Glastonbury,0,1,False
+1,U598644,N123784,Is the Alabama Football Dynasty Ending?,0,0,True
+1,U598644,N21431,Walmart's early Black Friday deals have begun   here are the ones you need to know about,0,0,True
+1,U598644,N106162,Napoli Players 'Living in Fear' of Own Fans as Club Tensions Escalate,0,0,True
+1,U598644,N59646,"3 'health' products that are a waste of money, according to dietitians",0,0,True
+1,U598644,N118348,Trump said he doesn't know them. CNN tracked down 10 interactions,0,0,True
+1,U598644,N25587,Sen. Menendez: 'It's sickening' to hear Trump refer to Dreamers as criminals,1,0,False
+1,U598644,N37544,"A $30,000 handbag. A disastrous wine spill. And now, a country club is suing its own waiter.",0,0,True
+1,U598644,N20780,Can't-Miss Play: Niners rip ball from D.K. Metcalf for goal-line stop,0,0,True
+1,U598644,N36266,Neil Young Says U.S. Citizenship Application Delayed By Marijuana Use,1,0,False
+1,U598644,N46329,"NFL Week 11 Power Rankings: Upsets rule, and a new team at the top",0,0,True
+1,U598644,N64102,Wintry weather causes travel mayhem in Midwest and Northeast,0,0,True
+1,U598644,N120930,Salt & Vinegar Mashed Potatoes Are More Addictive Than Potato Chips,0,0,True
+1,U598644,N62024,Watch: John Harbaugh shared awesome moment with Lamar Jackson,0,0,True
+1,U598644,N11017,Kansas lands commitment from five-star guard Bryce Thompson,0,0,True
+1,U598644,N76539,19 Home Renovations That Give Owners the Most Joy,0,1,False
+1,U598644,N26359,"Impeachment hearings are Democrats' last, best chance to show how Trump endangers America",0,1,False
+1,U598644,N108379,'I Am Not a Witch': Victims Testify on Ex-President's Brutal Roundups,0,0,True
+1,U598644,N87913,Bogus Warren Quote Ignites Immigration Anger,0,0,True
+1,U598644,N125161,The most beautiful places to visit in the US,0,0,True
+1,U598644,N23946,30 home trends that ruled the last decade,0,0,True
+1,U598644,N83702,"Frackers Prepare to Pull Back, Exacerbating a Slowdown in U.S. Oil Growth",0,0,True
+1,U598644,N62788,30+ Elegant White Rooms To Inspire Your Own Home Decor,0,0,True
+1,U598644,N6306,Barn Find: Large Collection Of Pontiac Firebirds Uncovered,0,0,True
+1,U598644,N66902,Shoppers Share Black Friday Strategies That Actually Work,0,0,True
+1,U598644,N93643,"FAA threatened to ground 38 Southwest Airlines jets over maintenance concerns, report says",0,0,True
+2,U532401,N103852,"Bannon calls Pelosi's impeachment strategy ""actually quite brilliant""",0,0,True
+2,U532401,N53474,Rep. Tim Ryan endorses Biden in Democratic primary,0,0,True
+2,U532401,N127836,Ruth Bader Ginsburg misses court due to illness,0,0,True
+2,U532401,N47925,Three school workers charged in death of special needs student,1,0,False
+3,U593596,N38902,Carrie Underwood Praises Miranda Lambert as 'Super Supportive': 'We Lift Each Other Up',0,1,False
+3,U593596,N76434,"Report: Election vendors are 'prime targets,' need oversight",0,1,False
+3,U593596,N71593,Every outfit Duchess Kate has worn in 2019,0,0,True
+3,U593596,N100073,Why Prince Harry Wore His Remembrance Poppy Differently from the Rest of the Royal Family,0,0,True
+3,U593596,N108736,"In speech, Bolton suggested Trump's policy decisions guided by personal interest",0,1,False
+3,U593596,N3061,"You can now rent a suite in a real-life royal palace on Airbnb, and it comes with a private butler",0,1,False
+3,U593596,N89658,15 Festive Hotels That Make the Holiday Season Even More Magical,0,1,False
+3,U593596,N33030,Wealthy investors are bracing for a sharp stock sell-off in 2020,0,1,False
+3,U593596,N110473,Five questions the second College Football Playoff rankings will answer,0,0,True
+3,U593596,N125655,Disney+: All the Original TV Shows and Movies Set for Streaming Platform (Photos),0,0,True
+3,U593596,N100206,Top 100 country songs of all time,0,0,True
+3,U593596,N37544,"A $30,000 handbag. A disastrous wine spill. And now, a country club is suing its own waiter.",0,1,False
+3,U593596,N60370,House Democrat: 'Sham' investigation of Bidens will not dominate impeachment hearings,0,1,False
+3,U593596,N59935,Stella McCartney Deleted a Meghan Markle Instagram Post After Followers Called Her Out,0,1,False
+3,U593596,N114935,Wendy's Is Rolling Out Birthday Cake Frostys for Its 50th Anniversary,1,0,False
+3,U593596,N114135,Unexpected Signs of an Unhealthy Heart,0,0,True
+3,U593596,N46262,U.S. Drones Appear to Show Turkish- Backed Forces Targeting Civilians,0,0,True
+3,U593596,N61065,Lamar Odom Is Engaged to Sabrina Parr: See Her Ring!,0,0,True
+3,U593596,N46329,"NFL Week 11 Power Rankings: Upsets rule, and a new team at the top",0,0,True
+3,U593596,N27368,C8 Corvette Dyno Test Follow-Up: What Really Happened,0,0,True
+3,U593596,N84381,Hyatt is eliminating travel-sized plastic toiletries,0,0,True
+3,U593596,N83412,Hannah Brown on Being Surrounded By Exes Tyler Cameron and Colton Underwood,0,0,True
+3,U593596,N2624,35 of the Biggest Food Recalls in U.S. History,0,0,True
+3,U593596,N34269,Joe Giudice Says It Was 'Painful' Watching Real Housewives of New Jersey from Prison,0,0,True
+3,U593596,N19053,American Airlines is dropping its Baltimore-Phoenix route,0,0,True
+3,U593596,N115724,The 12 Texas cities everyone in the country is moving to,0,0,True
+3,U593596,N20990,"The son of a Chinese billionaire has been banned from flying first class, playing golf, buying property, or going clubbing",0,0,True
+3,U593596,N100380,The Geno Smith coin toss conspiracy is the dumbest thing in Seahawks' win over 49ers,0,0,True
+3,U593596,N2074,Formula 1 racing will be carbon-neutral by 2030,0,0,True
+3,U593596,N128367,Supreme Court Appears Ready to Let Trump End DACA Program,0,0,True
+3,U593596,N8719,Instagram-famous pilot reveals secrets people don't know about the job,0,0,True
+3,U593596,N109344,10 Gazans dead as Israel hit on militant chief sparks rocket barrage,0,0,True
+3,U593596,N33078,Former U.S. President Carter recovering in hospital after successful brain procedure,0,0,True
+3,U593596,N100539,The Latest Weight Loss Pills That Work And the Ones That Don't,0,0,True
+3,U593596,N119665,World's Most Expensive SUV Looks Like Nothing Else,0,0,True
+3,U593596,N7937,Dean Foods files for bankruptcy,0,0,True
+3,U593596,N121580,Meteor streaks through the sky over St. Louis,0,0,True
+3,U593596,N108581,"Here are the best cruise lines for families, couples and those on a budget",0,0,True
+3,U593596,N92498,Country music's biggest scandals,0,0,True
+3,U593596,N18947,"Harrods accused of ruining the spirit of Christmas after limiting Santa visits to customers who spend over $2,500",0,0,True
+3,U593596,N109642,Eerie photos of an abandoned airport that hasn't been touched in 25 years,0,0,True
+3,U593596,N79048,These are the new cars that depreciate least,0,0,True
+3,U593596,N47277,The Daily Northwestern Apologizes to Student Protesters for Reporting,0,0,True
+3,U593596,N53225,The 6 Best Food Documentaries on Netflix Right Now,0,0,True
+3,U593596,N41710,Here's the Best Small Town in Every State,0,0,True
+3,U593596,N122819,See inside a woman's 270-square-foot tiny home complete with 2 bedrooms and a walk-in closet,0,0,True
+3,U593596,N30417,"Heisman Watch: Joe Burrow is the frontrunner, and there's not a close second",0,0,True
+3,U593596,N79044,"Bad news, seniors: Your Medicare costs are going up",0,0,True
+3,U593596,N76539,19 Home Renovations That Give Owners the Most Joy,0,0,True
+3,U593596,N57763,The 'Blue Zones' diet: Foods that help people live to 100,0,0,True
+3,U593596,N54239,America's Most and Least Popular Senators,0,0,True
+3,U593596,N62203,Stephen Curry calls out Michael Jordan for being a 'hater',0,0,True
+4,U239687,N76209,Kacey Musgraves Jokingly Asks 'Can You Die from a Hangover?' After Double Wins at the CMAs,0,0,True
+4,U239687,N48841,Knicks fans welcome Porzingis back with hearty round of boos,0,0,True
+4,U239687,N67937,Powerful side-by-side portraits show people over 100 years old next to their younger selves,0,0,True
+4,U239687,N62235,"Sign-stealing penalties could be ""unlike anything seen in the sport's recent history""",0,0,True
+4,U239687,N6307,6 Ways to Find Extra Money to Pay Off Credit Card Debt,0,0,True
+4,U239687,N34254,The 15 Longest Nonstop Flights in the World,0,0,True
+4,U239687,N89112,How to Get the Best Walmart Black Friday 2019 Deals,0,0,True
+4,U239687,N27471,Twinkies Cereal coming to a grocer near you,0,0,True
+4,U239687,N72919,RANKED: The 30 countries where expats are happiest,0,0,True
+4,U239687,N48758,Man arrested for ripping facemask off Joe Montana statue at Levi's Stadium,0,0,True
+4,U239687,N57001,Dads Do Ballet With Their Daughters & Melt Hearts All Over the Internet,0,0,True
+4,U239687,N45782,Dwayne Johnson Announces 'Black Adam' 2021 Release Date,0,0,True
+4,U239687,N25249,"Alaska is getting even more popular, but you can still skip the crowds",0,0,True
+4,U239687,N12907,NFL could meet with Brown multiple times to discuss case,0,0,True
+4,U239687,N46931,There have already been at least 30 shooting attacks at schools resulting in death or injury in 2019,0,0,True
+4,U239687,N55816,Cat completely destroys toilet roll,0,0,True
+4,U239687,N34424,Plouffe becomes latest ex-MLBer to implicate Astros in sign-stealing,0,0,True
+4,U239687,N49048,Maren Morris's Glamorous CMAs Gown Is Absolutely What Cinderella Would Wear in 2019,0,0,True
+4,U239687,N123028,California to overhaul insurance plan after wildfires,0,0,True
+4,U239687,N44109,Russian spies likely intercepted ambassador's cell phone call with Trump,0,0,True
+4,U239687,N56451,See Princess Sofia of Sweden's Unexpected Green Leopard Print Dress   Complete with Tiara!,0,0,True
+4,U239687,N44264,20 Style Lessons Chrissy Teigen Taught Us That We'll Remember Until the End of Time,0,0,True
+4,U239687,N80770,Judge agrees Alabama Islamic State recruit is not US citizen,0,0,True
+4,U239687,N127593,"If NCAA has to punish somebody in Wiseman debacle, blame Penny",0,0,True
+4,U239687,N120147,Top Putin aide named by MH17 airliner investigators,0,0,True
+4,U239687,N20553,"Falling Rents in New York, Boston Hold Back U.S. Core Inflation",0,0,True
+4,U239687,N32433,Why You Shouldn't Work For Money   and What To Work For Instead,0,0,True
+4,U239687,N2297,Joanna Gaines Posts Sweet Birthday Tribute to Husband Chip: '45 Looks Good on You',0,0,True
+4,U239687,N51048,"Best Store-Bought Desserts From Costco, Trader Joe's, and Aldi",0,0,True
+4,U239687,N107893,"Border officials: ""Consequences"" deterring migrant families and kids",0,0,True
+4,U239687,N117695,"Prince Harry and Prince William's Rift Is ""One of the Main Reasons"" the Sussexes Are Skipping Royal Christmas",0,0,True
+4,U239687,N88596,50 Quick and Easy Thanksgiving Recipes,0,0,True
+4,U239687,N67588,He was a member of a boy band in the 90s. Now he's an ER doctor in Dallas,0,0,True
+4,U239687,N113680,"Parents, students 'shaking and crying' after California school shooting",0,0,True
+4,U239687,N78508,Aaron Carter admitted to Florida hospital,0,0,True
+4,U239687,N20312,Which NFL teams would be a fit for Colin Kaepernick? Ranking all from 32 to 1,0,0,True
+4,U239687,N83707,Mo'Nique Files Race and Sex Discrimination Suit Against Netflix,0,0,True
+4,U239687,N20250,9 Amazing Transgender Women Who Changed History,0,0,True
+4,U239687,N103772,5-foot-6 Tarik Cohen complains about towels being placed too high in hilarious video,0,0,True
+4,U239687,N99529,Studies show these are the best and worst states for your retirement,0,0,True
+4,U239687,N46223,Six pretenders entering the 2019 NFL home stretch,0,0,True
+4,U239687,N110603,Stunning photos of 27 places around the world that you should visit before they disappear forever,0,0,True
+4,U239687,N104990,University of Florida student president faces impeachment for Trump Jr.'s $50K campus talk,0,0,True
+4,U239687,N24735,Highways on Fire. Semesters Cut Short. A Recession. Can Hong Kong Heal?,0,0,True
+4,U239687,N96840,"UFC fighter Walt Harris, wife, believe missing stepdaughter was set up to be kidnapped",0,0,True
+4,U239687,N102499,Bands' final albums before they broke up,0,0,True
+4,U239687,N51163,Family told to take down Christmas display because it's too soon to decorate,0,0,True
+4,U239687,N26122,'This tarnishes everything': Astros cheating allegations have baseball world demanding punishment,0,0,True
+4,U239687,N54845,US: Drug trafficking up sharply under Venezuela's Maduro,0,0,True
+4,U239687,N29477,"American Idol Winner Phillip Phillips Welcomes First Child, Son Patch",0,0,True
+4,U239687,N55761,Choosing the right winter tires for snow and ice: A quick guide,0,0,True
+4,U239687,N59866,Lamar Jackson vs. Deshaun Watson has potential to be NFL's next great quarterback rivalry,0,0,True
+4,U239687,N41737,"Global debt surges above $250 trillion as US, China lead way",0,0,True
+4,U239687,N23748,Here's What 'Cultural Appropriation' Actually Means   and Why It's Wrong,0,0,True
+4,U239687,N45724,The world's most (and least) competitive economies,0,0,True
+4,U239687,N51569,38 men who were worthy competitors for John Legend's Sexiest Man Alive title,0,0,True
+4,U239687,N32863,From Jay-Z's involvement to Goodell's actions: How Kaepernick's NFL workout materialized and what's next,0,0,True
+4,U239687,N122559,Family Brings Snow Inside So Obsessed Indoor Cat Can Play In It,0,0,True
+4,U239687,N13761,Celebrity plastic surgery transformations,0,0,True
+4,U239687,N38861,The week in entertainment history: Nov. 10-16,0,0,True
+4,U239687,N114449,"Tourists needed in Venice after flooding, locals say",0,0,True
+4,U239687,N35236,How the biggest stars of the decade have changed,0,0,True
+4,U239687,N81570,Stocks close little changed amid lingering trade worries,0,0,True
+4,U239687,N61964,Kelly Osbourne on Mom Sharon and Chrissy Teigen's Tiff: 'It's Okay If People Disagree',0,0,True
+4,U239687,N18070,"Why aren't wages rising faster even with low unemployment? Trade war, weaker economy are among reasons",0,0,True
+4,U239687,N121758,Kerr: LeBron probably the best athlete ever,0,0,True
+4,U239687,N5496,Browns cut WR Antonio Callaway hours before kickoff amid reported substance-abuse ban,0,0,True
+4,U239687,N122150,They bought a 1 euro house in Italy -- here's what happened next,0,0,True
+4,U239687,N40795,Prince Harry Talked to Another Royal About His Desire for Privacy,0,0,True
+4,U239687,N91390,Funny celeb pics for November 2019,0,0,True
+4,U239687,N92199,The Most Stunning Evening Gowns in Miss America History,0,0,True
+4,U239687,N64785,"Archie's Photo Album: Prince Harry, Duchess Meghan's Royal Baby",0,0,True
+4,U239687,N9447,School shootings were reported at 15 California schools since Sandy Hook,0,0,True
+4,U239687,N25756,A Trump Tax Break To Help The Poor Went To a Rich GOP Donor's Superyacht Marina,0,0,True
+4,U239687,N4232,Some of the World's Best Beaches Are in Countries You May Not Expect,0,0,True
+4,U239687,N34629,"Marcia Cross' anal cancer may have been linked to HPV. She wants people to know they could have the virus, too.",0,0,True
+4,U239687,N83374,Here's What It Means If You Have Ridges on Your Nails,0,0,True
+4,U239687,N63342,The Latest: Israel resumes strikes on Gaza after rocket fire,0,0,True
+4,U239687,N92449,A photographer takes incredible close-up photos of water droplets that look like miniature works of art,0,0,True
+4,U239687,N72485,See what your favorite stars look like without makeup,0,0,True
+4,U239687,N69201,Walmart manager ready as store where El Paso mass shooting occurred reopens,0,0,True
+4,U239687,N28821,"For Cody Bellinger, all it took to show emotion was an MVP award and a hug from his father",0,0,True
+4,U239687,N92077,Need Money? Check Out These Side-Hustle Apps,0,0,True
+4,U239687,N79044,"Bad news, seniors: Your Medicare costs are going up",0,0,True
+4,U239687,N123120,Trump admin. wants to raise costs to become a U.S. citizen by 83 percent,0,0,True
+4,U239687,N76189,Here's how much it will cost to travel to Africa like Meghan Markle and Prince Harry,0,0,True
+4,U239687,N45410,Support for marijuana legalization is at an all-time high in a new poll,0,0,True
+4,U239687,N27862,"Fed's Powell sees steady growth, signals pause in rate cuts",0,0,True
+4,U239687,N32419,"Braves make a splash, signing closer Will Smith to three-year, $39 million deal",0,0,True
+4,U239687,N75305,Why Your Connecting Gate May Be a Mile Walk,0,0,True
+4,U239687,N76665,Prince Harry and Meghan Markle just shared a never-before-seen photo of baby Archie with his 'Grandpa' Prince Charles to celebrate his birthday,0,0,True
+4,U239687,N3623,"The latest on Brad Pitt and Angelina Jolie's post-split relationship, plus more news",0,0,True
+4,U239687,N33011,What Chrissy Teigen Eats in a Day to Stay Fit and Glowing,0,0,True
+4,U239687,N126134,Tom Brady's trainer hints at how long QB intends to keep playing,0,0,True
+4,U239687,N48205,This Is the Hottest Destination in America for a Road Trip,0,0,True
+4,U239687,N65446,The most exclusive hotel in every state,0,0,True
+4,U239687,N14804,"Santa Clarita students made an active shooter video. Two months later, they took shelter in fear",0,0,True
+4,U239687,N110439,Southwest's Spring Travel Sale Includes $39 One-way Tickets,0,0,True
+4,U239687,N75646,"Hue Jackson will run Colin Kaepernick's passing drills, 11 teams have said they'll attend",0,0,True
+4,U239687,N33702,Oil rises after OPEC's Barkindo says U.S. shale growth may slow in 2020,0,0,True
+4,U239687,N44620,"Sorry, Trump: Multinationals are still pouring cash into China",0,0,True
+4,U239687,N93873,China Lifts 4-Year Ban on U.S. Chicken,0,0,True
+4,U239687,N91238,Sears is laying off hundreds of corporate employees after announcing 96 store closings,0,0,True
+4,U239687,N100289,"American ISIS fighter stranded in no-man's to be repatriated to U.S., Turkey says",0,0,True
+4,U239687,N33539,What 40 Celebrities Look Like Without Their Signature Looks,0,0,True
+4,U239687,N68624,Chuck E. Cheese just got major makeover   and axed the animal band,0,0,True
+4,U239687,N77712,Venezuela's ex-spy chief disappears on eve of extradition to US,0,0,True
+4,U239687,N19455,"Week in celebrity photos for Nov. 11-15, 2019",0,0,True
+4,U239687,N92300,"No, Not Everyone Is Beautiful, And We'd All Be Better Off If We Stopped Saying We Are",0,0,True
+4,U239687,N25814,Video shows a Boeing 737 plane carrying 196 people burst into flames just after landing at an Egyptian airport,0,0,True
+4,U239687,N25443,"Weddle, Miller, Pederson among sportsmanship nominees",0,0,True
+4,U239687,N84574,Who will be best team in the NFL after Week 11?,0,0,True
+4,U239687,N112156,Welcome to the World! All of the Celebrity Babies Who've Made Their Debuts in 2019,0,0,True
+4,U239687,N117411,99 of the world's most amazing bucket-list experiences for 2020,0,0,True
+4,U239687,N70883,There are 14 cheap days to fly left in 2019: When are they and what deals can you score?,0,0,True
+4,U239687,N4371,"I Took Out A $20,000 Loan To Get Married... To Myself",0,0,True
+4,U239687,N103810,"I'm a College Instructor, and This Is the 1 Thing I Wish More Students Did",0,0,True
+4,U239687,N87146,Comics - 'Pluggers' by Gary Brookins,0,0,True
+4,U239687,N23077,The most famous celebrity kids born this decade,0,0,True
+4,U239687,N27836,Solomon: Too many minutes for Rockets' Harden?,0,0,True
+4,U239687,N11846,North Korea says Trump administration sought reopening of nuclear talks,0,0,True
+4,U239687,N67955,Turkey's Erdoğan showed propaganda film about Kurds during White House meeting: report,0,0,True
+4,U239687,N86258,Student's drone footage shows whale swimming around California surfers,1,0,False
+4,U239687,N88329,100 best Westerns of all time,0,0,True
+4,U239687,N16161,How To Make Garlic Bread Mac & Cheese By Rachael,0,0,True
+4,U239687,N94999,Trump admin preparing to take over private land for border wall,0,0,True
+4,U239687,N129503,Biggest celeb weddings of the last decade,0,0,True
+4,U239687,N87070,"Racist graffiti at Syracuse University prompts protest, New York governor response",0,0,True
+4,U239687,N120708,17 Movie Soundtracks Every Kid from the '80s Loved,0,0,True

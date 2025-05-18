@@ -1,261 +1,261 @@
 [
     {
-        "index": "1",
+        "index": 1,
         "news": "Did Hitler Invent the Inflatable Sex Doll?",
         "true_label": "False",
-        "prediction": "False",
-        "is_correct": "True"
+        "prediction": "True",
+        "is_correct": false
     },
     {
-        "index": "2",
+        "index": 2,
         "news": "Does Texting ‘RBG’ to 50409 Send a Letter to Your Senators?",
         "true_label": "True",
         "prediction": "False",
-        "is_correct": "False"
+        "is_correct": false
     },
     {
-        "index": "6",
+        "index": 6,
         "news": "Did the White House Watch the Benghazi Attack and Do Nothing?",
         "true_label": "False",
         "prediction": "False",
-        "is_correct": "True"
+        "is_correct": true
     },
     {
-        "index": "7",
+        "index": 7,
         "news": "Do Color Codes on Toothpaste Tubes Identify Their Ingredients?",
         "true_label": "False",
-        "prediction": "True",
-        "is_correct": "False"
+        "prediction": "False",
+        "is_correct": true
     },
     {
-        "index": "9",
+        "index": 9,
         "news": "Did Ruth Bader Ginsburg Say that Pedophilia Was Good for Children?",
         "true_label": "False",
         "prediction": "False",
-        "is_correct": "True"
+        "is_correct": true
     },
     {
-        "index": "10",
+        "index": 10,
         "news": "Bow Hunting Wild Horses",
         "true_label": "True",
-        "prediction": "False**",
-        "is_correct": "False"
+        "prediction": "False",
+        "is_correct": false
     },
     {
-        "index": "11",
+        "index": 11,
         "news": "‘Welcome to Mingo County’",
         "true_label": "False",
         "prediction": "True",
-        "is_correct": "False"
+        "is_correct": false
     },
     {
-        "index": "12",
+        "index": 12,
         "news": "Dwayne Johnson Arrested",
         "true_label": "False",
         "prediction": "False",
-        "is_correct": "True"
+        "is_correct": true
     },
     {
-        "index": "13",
+        "index": 13,
         "news": "‘Guccifer’ Is Not Missing or Dead",
         "true_label": "False",
         "prediction": "True",
-        "is_correct": "False"
+        "is_correct": false
     },
     {
-        "index": "14",
+        "index": 14,
         "news": "Fireworks Explode in Woman During Shoplifting Attempt",
         "true_label": "False",
         "prediction": "False",
-        "is_correct": "True"
+        "is_correct": true
     },
     {
-        "index": "15",
+        "index": 15,
         "news": "‘Pawn Stars’ Personality Richard Harrison Dies at 77",
         "true_label": "True",
         "prediction": "True",
-        "is_correct": "True"
+        "is_correct": true
     },
     {
-        "index": "16",
+        "index": 16,
         "news": "Tim Hortons Adding Marijuana to Their Menu",
         "true_label": "False",
         "prediction": "False",
-        "is_correct": "True"
+        "is_correct": true
     },
     {
-        "index": "17",
+        "index": 17,
         "news": "Obama to Remove Statue of Liberty Because It Offends Muslims",
         "true_label": "False",
         "prediction": "False",
-        "is_correct": "True"
+        "is_correct": true
     },
     {
-        "index": "19",
+        "index": 19,
         "news": "Cop Shoots 2-Year-Old Black Baby After Mistaking Pacifier for Gun",
         "true_label": "False",
         "prediction": "False",
-        "is_correct": "True"
+        "is_correct": true
     },
     {
-        "index": "20",
+        "index": 20,
         "news": "Chris Christie Vetoes Equal Pay for Women as ‘Against Religious Freedom’",
         "true_label": "False",
         "prediction": "False",
-        "is_correct": "True"
+        "is_correct": true
     },
     {
-        "index": "21",
+        "index": 21,
         "news": "‘Arab Guy’ Renounces Faith on Egyptian Television?",
         "true_label": "False",
         "prediction": "False",
-        "is_correct": "True"
+        "is_correct": true
     },
     {
-        "index": "23",
+        "index": 23,
         "news": "Omar Mateen’s Final Text to Wife Released: “I’m Gay, That’s Why I’m Doing This.”",
         "true_label": "False",
         "prediction": "False",
-        "is_correct": "True"
+        "is_correct": true
     },
     {
-        "index": "24",
+        "index": 24,
         "news": "Alton Sterling Killed by Trump Supporter Robert Kinnison",
         "true_label": "False",
         "prediction": "False",
-        "is_correct": "True"
+        "is_correct": true
     },
     {
-        "index": "26",
+        "index": 26,
         "news": "Monsanto Buys Whole Foods",
         "true_label": "False",
         "prediction": "False",
-        "is_correct": "True"
+        "is_correct": true
     },
     {
-        "index": "28",
+        "index": 28,
         "news": "Teen Playing ‘Pokemon Go’ Stabbed and Mugged for His iPhone",
         "true_label": "False",
         "prediction": "True",
-        "is_correct": "False"
+        "is_correct": false
     },
     {
-        "index": "30",
+        "index": 30,
         "news": "‘Stairway to Heaven’ Fireworks Display",
         "true_label": "True",
-        "prediction": "True",
-        "is_correct": "True"
+        "prediction": "False",
+        "is_correct": false
     },
     {
-        "index": "31",
+        "index": 31,
         "news": "DeRay Mckesson and the Summer of Chaos",
         "true_label": "False",
         "prediction": "True",
-        "is_correct": "False"
+        "is_correct": false
     },
     {
-        "index": "32",
+        "index": 32,
         "news": "Obama Commissions Gender Neutral Bible",
         "true_label": "False",
         "prediction": "False",
-        "is_correct": "True"
+        "is_correct": true
     },
     {
-        "index": "33",
+        "index": 33,
         "news": "Dallas Shooter Not Identified as Neo-Nazi Jeffrey Harris",
         "true_label": "False",
         "prediction": "False",
-        "is_correct": "True"
+        "is_correct": true
     },
     {
-        "index": "34",
+        "index": 34,
         "news": "Pride of Lions Kills Five Poachers and Injures Three Others in Zimbabwe",
         "true_label": "False",
         "prediction": "False",
-        "is_correct": "True"
+        "is_correct": true
     },
     {
-        "index": "35",
+        "index": 35,
         "news": "Einstein Bicycles as A-Bomb Explodes",
         "true_label": "False",
         "prediction": "False",
-        "is_correct": "True"
+        "is_correct": true
     },
     {
-        "index": "37",
+        "index": 37,
         "news": "‘The Simpsons’ Predicted Pokemon Go",
         "true_label": "False",
         "prediction": "True",
-        "is_correct": "False"
+        "is_correct": false
     },
     {
-        "index": "38",
+        "index": 38,
         "news": "Steven Hildreth Jr.’s Traffic Stop",
         "true_label": "True",
         "prediction": "True",
-        "is_correct": "True"
+        "is_correct": true
     },
     {
-        "index": "39",
+        "index": 39,
         "news": "Nicolas Cage Death Hoax",
         "true_label": "False",
         "prediction": "False",
-        "is_correct": "True"
+        "is_correct": true
     },
     {
-        "index": "40",
+        "index": 40,
         "news": "Major Highway Accident After Man Stops in Middle of Highway to Catch Pikachu!",
         "true_label": "False",
         "prediction": "False",
-        "is_correct": "True"
+        "is_correct": true
     },
     {
-        "index": "42",
+        "index": 42,
         "news": "Did John Kerry Hide His Connection to an Iranian Official with Whom He Negotiated a Nuclear Deal?",
         "true_label": "False",
         "prediction": "False",
-        "is_correct": "True"
+        "is_correct": true
     },
     {
-        "index": "43",
+        "index": 43,
         "news": "Ruth Ginsburg Threatens to ‘Resign from SCOTUS’ If Trump Is Elected President",
         "true_label": "False",
         "prediction": "False",
-        "is_correct": "True"
+        "is_correct": true
     },
     {
-        "index": "44",
+        "index": 44,
         "news": "Pope Francis Shocks World, Endorses Donald Trump for President",
         "true_label": "False",
         "prediction": "False",
-        "is_correct": "True"
+        "is_correct": true
     },
     {
-        "index": "46",
+        "index": 46,
         "news": "Iranian Negotiator Discusses Nuclear Deal",
         "true_label": "False",
         "prediction": "True",
-        "is_correct": "False"
+        "is_correct": false
     },
     {
-        "index": "47",
+        "index": 47,
         "news": "John Cena Death Hoax",
         "true_label": "False",
         "prediction": "False",
-        "is_correct": "True"
+        "is_correct": true
     },
     {
-        "index": "48",
+        "index": 48,
         "news": "President Obama: Americans Are Better Off Under Martial Law",
         "true_label": "False",
         "prediction": "False",
-        "is_correct": "True"
+        "is_correct": true
     },
     {
-        "index": "49",
+        "index": 49,
         "news": "Teen Kills Younger Brother Because He Thought He Deleted His Pokemon",
         "true_label": "False",
         "prediction": "False",
-        "is_correct": "True"
+        "is_correct": true
     }
 ]

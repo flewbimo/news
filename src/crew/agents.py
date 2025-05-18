@@ -42,13 +42,14 @@ class CustomAgents:
             allow_delegation=False,
             verbose=True,
             llm=self.CurrentLLM,
+            memory=True,
         )
     # 用于辨别真实新闻和去除偏见
     def disentangling_interest_learning_module(self):
         return Agent(
-            role="disentangling interest learning module",
+            role="news detection module",
             goal="""
-            你的目标是判断新闻的政治极性和判断新闻的真实性
+            你的目标是判断新闻的政治极性和判断新闻的真实性,并根据结果正确与否做出改进
             """,
             backstory="""
             你在阅读新闻声明时非常注重细节。你能够在理解这些细节的同时挑选出小细节
@@ -61,9 +62,8 @@ class CustomAgents:
             allow_delegation=False,
             verbose=True,
             llm=self.CurrentLLM,
-            tools=[moduls_tools.classification_tool(),
-                   moduls_tools.factChecking_tool(), moduls_tools.sentiment_tool()]
-
+            tools=[article_analysis_tools.search_tool(),article_analysis_tools.scrape_tool(),moduls_tools.classification_tool(),moduls_tools.sentiment_tool()],
+            #memory=True,
         )
     #用于综合以上信息进行推荐
     def next_news_prediction_module(self):
@@ -83,6 +83,7 @@ class CustomAgents:
             allow_delegation=False,
             verbose=True,
             llm=self.CurrentLLM,
+            memory=True,
         )
 
     

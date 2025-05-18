@@ -71,9 +71,14 @@ def run():
     results = []
     total_count = 0
     correct_count = 0
+    processed_users = 0  # 添加计数器
     
     for index, row in behaviors_df.iterrows():
+        if processed_users >= 5:  # 只处理前5个客户
+            break
+            
         if pd.notna(row['History']):
+            processed_users += 1  # 增加计数器
             history_news_ids = row['History'].split()
             
             # 分析用户历史点击

@@ -1,0 +1,1122 @@
+[
+    {
+        "index": 1,
+        "news": "Did Hitler Invent the Inflatable Sex Doll?",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据：根据Snopes.com的调查，没有证据表明希特勒发明了充气性玩偶，这一说法似乎是一个都市传说。",
+        "is_correct": true
+    },
+    {
+        "index": 2,
+        "news": "Does Texting ‘RBG’ to 50409 Send a Letter to Your Senators?",
+        "true_label": "True",
+        "prediction": "True",
+        "reason": "判断依据：根据Snopes.com的fact-check结果，Texting \"RBG\" to 50409确实会通过Resistbot服务生成一封电子邮件，鼓励延迟对新最高法院法官的投票，并将其发送给用户的参议员。",
+        "is_correct": true
+    },
+    {
+        "index": 6,
+        "news": "Did the White House Watch the Benghazi Attack and Do Nothing?",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: According to Snopes.com, the claim that top Obama administration officials watched the Benghazi attack unfold in real-time and did nothing to intervene is false. The evidence shows that the administration did issue clear orders to deploy military assets.",
+        "is_correct": true
+    },
+    {
+        "index": 7,
+        "news": "Do Color Codes on Toothpaste Tubes Identify Their Ingredients?",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "The colored squares on toothpaste tubes do not identify the composition of the toothpaste enclosed therein. They are known as \"eye marks\" or \"color marks,\" which are part of the manufacturing process and have nothing to do with the ingredients of the toothpaste.",
+        "is_correct": true
+    },
+    {
+        "index": 9,
+        "news": "Did Ruth Bader Ginsburg Say that Pedophilia Was Good for Children?",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: 根据Snopes.com的详细调查和分析，Ruth Bader Ginsburg并没有说过\"pedophilia was good for children\"这样的话。这个说法源于对她在1974年与他人合著的一篇关于性别偏见法律的报告的误解和曲解。报告的焦点是关于改变法律中性别化的语言，而不是关于降低同意年龄。这个谣言经过多年的传播，逐渐被歪曲和夸大。",
+        "is_correct": true
+    },
+    {
+        "index": 10,
+        "news": "Bow Hunting Wild Horses",
+        "true_label": "True",
+        "prediction": "False",
+        "reason": "Bow hunting wild horses is not a widespread or legal practice in most regions, including the United States. While it may be legal in certain contexts, such as in Australia, the activity is not commonly accepted or practiced. The news statement lacks context and specificity regarding the legal and regional aspects of the practice.",
+        "is_correct": false
+    },
+    {
+        "index": 11,
+        "news": "‘Welcome to Mingo County’",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据：根据Snopes.com的调查结果，\"Welcome to Mingo County\"的声明是一个虚假的Photoshop图片，声称明戈县的居民持有隐藏式武器并且承诺“还击”。原照片是2010年拍摄的一张普通欢迎标志，没有提到特定县或任何威胁性信息。",
+        "is_correct": true
+    },
+    {
+        "index": 12,
+        "news": "Dwayne Johnson Arrested",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据：根据搜索结果，没有找到任何近期可信的新闻报道或官方声明表明Dwayne Johnson被逮捕。相反，有一些报道澄清了这一传闻的不实性。此外，搜索结果中提到的“Dwayne 'The Rock' Johnson has not been arrested”这一事实检查文章进一步证实了这一点。因此，该新闻声明缺乏可信的证据支持，应被判定为不真实。",
+        "is_correct": true
+    },
+    {
+        "index": 13,
+        "news": "‘Guccifer’ Is Not Missing or Dead",
+        "true_label": "False",
+        "prediction": "True",
+        "reason": "The news statement \"‘Guccifer’ Is Not Missing or Dead\" is confirmed by credible sources such as Snopes.com, which states that hacker Marcel Lazăr Lehel, also known as \"Guccifer,\" is neither missing from his jail cell nor dead. Additionally, other reputable sources like BBC News and The New York Times have reported on the status of 'Guccifer' without mentioning any incident of him being missing or dead. Therefore, the news statement is true based on these verified sources.",
+        "is_correct": false
+    },
+    {
+        "index": 14,
+        "news": "Fireworks Explode in Woman During Shoplifting Attempt",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: The news \"Fireworks Explode in Woman During Shoplifting Attempt\" has been identified as a hoax by Snopes.com, a reliable fact-checking website. The article was published by a fake news website, News10Live, which often fabricates sensational stories. The photograph used in the article was also unrelated to the incident and was a mugshot from an entirely different arrest.",
+        "is_correct": true
+    },
+    {
+        "index": 15,
+        "news": "‘Pawn Stars’ Personality Richard Harrison Dies at 77",
+        "true_label": "True",
+        "prediction": "True",
+        "reason": "The news is confirmed by multiple credible sources, including People.com, USA Today, and Wikipedia, as well as a personal confirmation from Richard Harrison's son, Rick Harrison, on Instagram.",
+        "is_correct": true
+    },
+    {
+        "index": 16,
+        "news": "Tim Hortons Adding Marijuana to Their Menu",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: 根据Snopes.com的调查,该新闻是一个恶作剧新闻的产物,事实上Tim Hortons并未宣布计划出售大麻。该故事来源于一个娱乐网站的虚构故事,不应认真对待。",
+        "is_correct": true
+    },
+    {
+        "index": 17,
+        "news": "Obama to Remove Statue of Liberty Because It Offends Muslims",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据：根据Snopes.com的详细调查，这条新闻源于虚假网站的报道，并且没有正式的新闻报道或官方声明支持这一说法。此外，总统奥巴马的言论被断章取义，与穆斯林无关，且没有计划移除自由女神像。因此，这条新闻是虚假的。",
+        "is_correct": true
+    },
+    {
+        "index": 19,
+        "news": "Cop Shoots 2-Year-Old Black Baby After Mistaking Pacifier for Gun",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: 根据Snopes.com的事实核查，该新闻是2015年的假新闻，并在2016年再次出现，没有真实事件支持。",
+        "is_correct": true
+    },
+    {
+        "index": 20,
+        "news": "Chris Christie Vetoes Equal Pay for Women as ‘Against Religious Freedom’",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: 可靠的事实核查网站如Snopes.com和Politifact表明，Chris Christie并没有以“违反宗教自由”为由否决关于女性同工同酬的法案，而是出于其他原因进行了否决。这些来源提供了确凿的证据来反驳特定的新闻声明。",
+        "is_correct": true
+    },
+    {
+        "index": 21,
+        "news": "‘Arab Guy’ Renounces Faith on Egyptian Television?",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据：根据Snopes.com的详细调查，这段视频实际上是埃及反对派活动家Ihab al-Khouli对前埃及总统穆罕默德·穆尔西的演讲的愤怒反应，而不是某人在电视上公开放弃信仰的行为。视频的标题和描述被故意误导，以制造轰动效应。",
+        "is_correct": true
+    },
+    {
+        "index": 23,
+        "news": "Omar Mateen’s Final Text to Wife Released: “I’m Gay, That’s Why I’m Doing This.”",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "The news statement is false because it originated from a fake news site and was later debunked by reliable sources such as Snopes.com.",
+        "is_correct": true
+    },
+    {
+        "index": 24,
+        "news": "Alton Sterling Killed by Trump Supporter Robert Kinnison",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "Alton Sterling 并非被 Trump 支持者 Robert Kinnison 所杀，这是一个在社交媒体上传播的谣言，已被 Snopes.com 和其他可靠来源证实为假。",
+        "is_correct": true
+    },
+    {
+        "index": 26,
+        "news": "Monsanto Buys Whole Foods",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: 1. Whole Foods Market has publicly denied any affiliation with Monsanto.",
+        "is_correct": true
+    },
+    {
+        "index": 28,
+        "news": "Teen Playing ‘Pokemon Go’ Stabbed and Mugged for His iPhone",
+        "true_label": "False",
+        "prediction": "True",
+        "reason": "判断依据：多个可信的新闻报道和事实核查网站报道了这一事件，提供了确凿的证据支持该新闻声明的真实性。",
+        "is_correct": false
+    },
+    {
+        "index": 30,
+        "news": "‘Stairway to Heaven’ Fireworks Display",
+        "true_label": "True",
+        "prediction": "True",
+        "reason": "判断依据: 根据Snopes.com的详细事实核查文章，视频中的\"Stairway to Heaven\"烟花表演确实是一次真实的事件，而非数字创建的镜头。这个表演是中国艺术家Cai Guoqiang于2015年在泉州举行的，并得到了官方确认和详细的技术解释。",
+        "is_correct": true
+    },
+    {
+        "index": 31,
+        "news": "DeRay Mckesson and the Summer of Chaos",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: 根据Snopes.com的事实核查文章，关于DeRay Mckesson计划与Loretta Lynch合作实施\"Summer of Chaos\"的Twitter消息是伪造的。这些消息是在Mckesson的Twitter账户被黑客攻击后传播的，Mckesson本人否认了这些消息的真实性。此外，文章指出这些消息的细节过于详细，且包含了许多不合理的内容，进一步证明了其虚假性。",
+        "is_correct": true
+    },
+    {
+        "index": 32,
+        "news": "Obama Commissions Gender Neutral Bible",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: The news was rated as False on Snopes.com, which is a trusted fact-checking website that investigated the claim and found it to be untrue.",
+        "is_correct": true
+    },
+    {
+        "index": 33,
+        "news": "Dallas Shooter Not Identified as Neo-Nazi Jeffrey Harris",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据：根据Snopes.com的调查，在2016年达拉斯抗议活动中枪杀警察的人被确认为Micah Xavier Johnson，而不是所谓的Neo-Nazi Jeffrey Harris。Twitter上的消息是由一个恶意账户发布的虚假信息。",
+        "is_correct": true
+    },
+    {
+        "index": 34,
+        "news": "Pride of Lions Kills Five Poachers and Injures Three Others in Zimbabwe",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "The news is a hoax, as confirmed by multiple fact-checking sources including Snopes.com, which states that the story originated from a fake news article published by World News Daily Report.",
+        "is_correct": true
+    },
+    {
+        "index": 35,
+        "news": "Einstein Bicycles as A-Bomb Explodes",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: 经过搜索，发现相关照片是伪造的，多家可靠来源如Snopes.com证实该照片为合成图像，并非真实事件。",
+        "is_correct": true
+    },
+    {
+        "index": 37,
+        "news": "‘The Simpsons’ Predicted Pokemon Go",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "The claim that \"The Simpsons\" predicted Pokemon Go is false. The image circulating online is a fake, created by adding a second hand holding a Pokemon Go game to a screenshot from an existing episode.",
+        "is_correct": true
+    },
+    {
+        "index": 38,
+        "news": "Steven Hildreth Jr.’s Traffic Stop",
+        "true_label": "True",
+        "prediction": "True",
+        "reason": "判断依据: 多个可信的新闻网站和事实核查网站Snopes.com都确认了该事件的真实性。",
+        "is_correct": true
+    },
+    {
+        "index": 39,
+        "news": "Nicolas Cage Death Hoax",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: ",
+        "is_correct": true
+    },
+    {
+        "index": 40,
+        "news": "Major Highway Accident After Man Stops in Middle of Highway to Catch Pikachu!",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: 多个可信来源如Snopes, Reddit, BuzzFeed证实该新闻为假新闻。",
+        "is_correct": true
+    },
+    {
+        "index": 42,
+        "news": "Did John Kerry Hide His Connection to an Iranian Official with Whom He Negotiated a Nuclear Deal?",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "John Kerry's involvement in the Iran nuclear deal and his meetings with Iranian officials are well-documented and not hidden. There is no evidence to support the claim that he hid his connection to an Iranian official.",
+        "is_correct": true
+    },
+    {
+        "index": 43,
+        "news": "Ruth Ginsburg Threatens to ‘Resign from SCOTUS’ If Trump Is Elected President",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: 根据Snopes.com和FactCheck.org的报道，这条新闻是一个虚假的新闻报道。这些网站指出，该声明基于一个恶搞的新闻文章，而Ruth Bader Ginsburg从未威胁要辞职。事实上，她在多次采访中明确表示，她没有计划因为特朗普当选总统而辞职。因此，这条新闻是虚假的。",
+        "is_correct": true
+    },
+    {
+        "index": 44,
+        "news": "Pope Francis Shocks World, Endorses Donald Trump for President",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据：经过详细的网络搜索和参考可靠的事实核查网站，如FactCheck.org和Snopes.com，确认Pope Francis并没有公开支持或背书Donald Trump竞选总统。此新闻声明被多个权威来源确认为虚假信息。",
+        "is_correct": true
+    },
+    {
+        "index": 46,
+        "news": "Iranian Negotiator Discusses Nuclear Deal",
+        "true_label": "False",
+        "prediction": "True",
+        "reason": "判断依据：",
+        "is_correct": false
+    },
+    {
+        "index": 47,
+        "news": "John Cena Death Hoax",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: 可信的事实核查网站和多个权威来源已经证实这条新闻是假的，John Cena并没有在任何事故中去世。",
+        "is_correct": true
+    },
+    {
+        "index": 48,
+        "news": "President Obama: Americans Are Better Off Under Martial Law",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "The statement \"President Obama: Americans Are Better Off Under Martial Law\" has been debunked by Snopes, a reputable fact-checking website. The Snopes article states that the claim is false and provides context to demonstrate why this statement is not accurate. Additionally, there are no credible sources or official statements from President Obama or his administration that support this claim.",
+        "is_correct": true
+    },
+    {
+        "index": 49,
+        "news": "Teen Kills Younger Brother Because He Thought He Deleted His Pokemon",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "根据判断依据，该新闻已被多个可靠来源认定为虚假新闻，包括Snopes.com、The Washington Post和Vice。",
+        "is_correct": true
+    },
+    {
+        "index": 51,
+        "news": "Black Lives Matter Protests Kill Girl Waiting for Transplant in Memphis",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: 根据Snopes.com和其他可靠来源的详细事实核查，该新闻声明被认定为虚假信息。多个权威来源和官方声明均未证实这一事件的真实性。",
+        "is_correct": true
+    },
+    {
+        "index": 53,
+        "news": "Rochester/Silver Lake Park Abduction Warning",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: 根据Snopes.com的调查，罗切斯特警察局表示没有收到任何关于在Silver Lake Park进行绑架企图的报告。此外，警察局指出，该事件的描述与通常的人贩子活动方式不符，通常人贩子会与受害者进行长期的互动，而不是通过陌生人的快速绑架。因此，这条新闻被认定为虚假信息。",
+        "is_correct": true
+    },
+    {
+        "index": 54,
+        "news": "Did Burger King Admit Their Burgers Contain Horsemeat?",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "Burger King did not admit to selling burgers containing horsemeat. The claim was a distortion of a 2013 incident where trace amounts of horse DNA were found in products from a supplier's plant, but Burger King immediately discontinued use of that supplier and no horse DNA was found in their burgers.",
+        "is_correct": true
+    },
+    {
+        "index": 56,
+        "news": "Seahawks’ Richard Sherman Condemns ‘Black Lives Matter’ Movement",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "Richard Sherman did not author the post condemning the 'Black Lives Matter' movement. The message originally circulated in September 2015 and was denied by Sherman. The news statement is false.",
+        "is_correct": true
+    },
+    {
+        "index": 57,
+        "news": "Australian Police Targeting Pokemon Go Players",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "The claim is based on a digitally altered photograph and does not reflect actual police actions related to Pokemon Go players in Australia.",
+        "is_correct": true
+    },
+    {
+        "index": 59,
+        "news": "Donald Trump Congratulates Serena Williams",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: 该新闻报道的Twitter对话实际上是虚构的，来源于一个讽刺网站的Facebook帖子，而Donald Trump确实祝贺了Serena Williams，但并非以报道中的方式。",
+        "is_correct": true
+    },
+    {
+        "index": 60,
+        "news": "Photograph of Elijah Wood with Identical Twin Brother",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据：根据Snopes.com的核实，该照片是合成的，并非真实的与双胞胎兄弟的合影。",
+        "is_correct": true
+    },
+    {
+        "index": 61,
+        "news": "Would You Have Invested?",
+        "true_label": "True",
+        "prediction": "False",
+        "reason": "The title \"Would You Have Invested?\" does not appear to refer to a specific, verifiable news event or claim. It is more likely a discussion or opinion piece about investment decisions, making it unsuitable for a true/false evaluation.",
+        "is_correct": false
+    },
+    {
+        "index": 62,
+        "news": "Scientists Say Giant Asteroid Could Hit Earth Next Week, Causing Mass Devastation",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: The news headline is a clickbait experiment designed to test social media sharing behavior, as confirmed by Snopes.com. No credible sources report an asteroid hitting Earth next week.",
+        "is_correct": true
+    },
+    {
+        "index": 63,
+        "news": "15-Year-Old Killed Trespassing While Playing Pokemon Go",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: Snopes, a reputable fact-checking website, has debunked the claim, stating that the story originated from a notorious fake news outlet and is categorically false.",
+        "is_correct": true
+    },
+    {
+        "index": 64,
+        "news": "Did Chick-fil-A Just ‘Drop a Bomb’ on Black Lives Matter?",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "The claim \"Did Chick-fil-A Just ‘Drop a Bomb’ on Black Lives Matter?\" is false. The \"Back the Blue\" shirts were not distributed by Chick-fil-A in response to Black Lives Matter protests. Instead, the shirts were created in support of a local high school football team at one location in Texas in October 2015.",
+        "is_correct": true
+    },
+    {
+        "index": 65,
+        "news": "Pokémon Was Originally Designed for Satanists",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "Pokémon was not originally designed for Satanists. The claim stems from misconceptions and rumors that have been debunked by fact-checking websites such as Snopes.com. The creator of Pokémon, Satoshi Tajiri, never stated that the game was designed with Satanists in mind.",
+        "is_correct": true
+    },
+    {
+        "index": 66,
+        "news": "Russia Put Black Lives Matter on Official Terror List",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: 根据Snopes.com的调查，这一消息源于一个不可靠的阴谋论网站，并未得到任何官方或可信来源的证实。",
+        "is_correct": true
+    },
+    {
+        "index": 68,
+        "news": "Woman Dies from Maggot Infested Weave",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "The news headline \"Woman Dies from Maggot Infested Weave\" has been debunked by Snopes as false. Numerous websites and articles suggest that the story is not true, and it has been labeled as a false claim.",
+        "is_correct": true
+    },
+    {
+        "index": 70,
+        "news": "White Billionaire Offers $1 Billion to Breed Lebron and Serena",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: Snopes, a reputable fact-checking website, has classified the news \"White Billionaire Offers $1 Billion to Breed Lebron and Serena\" as fake, stating that it was a fake news article from 2016.",
+        "is_correct": true
+    },
+    {
+        "index": 71,
+        "news": "The Tragic Life Experiences of Dallas Police Chief David Brown",
+        "true_label": "True",
+        "prediction": "True",
+        "reason": "The news \"The Tragic Life Experiences of Dallas Police Chief David Brown\" has been verified by a credible source, Snopes.com, which classified it as true.",
+        "is_correct": true
+    },
+    {
+        "index": 72,
+        "news": "Pokémon Enthusiast Stabbed, Turns Down Medical Treatment to Keep Playing",
+        "true_label": "True",
+        "prediction": "True",
+        "reason": "判断依据：根据多个可靠来源的新闻报道，包括Snopes、Business Insider、Vice和Daily Mail，证实了该事件的真实性。这些来源均提到一名22岁的俄勒冈州男子在玩《Pokémon Go》时被刺伤，但他拒绝接受医疗治疗以便继续玩游戏。",
+        "is_correct": true
+    },
+    {
+        "index": 74,
+        "news": "Donald Trump Hires ‘Clueless’ Star for Outreach Program",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "The news \"Donald Trump Hires ‘Clueless’ Star for Outreach Program\" is false according to Snopes, a reliable fact-checking website. The story originated from National Report, a known fake news site.",
+        "is_correct": true
+    },
+    {
+        "index": 75,
+        "news": "Obama Signs Executive Order Allowing Military to Fight US Citizens",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: 分析了Snopes等权威事实核查网站的内容，确认该新闻为虚假信息。新闻中的陈述被权威来源明确否定，且没有证据支持这一说法。",
+        "is_correct": true
+    },
+    {
+        "index": 77,
+        "news": "Amish Dobergoat Fighting Ring Busted!",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据：根据Snopes的核实，该新闻内容是虚假的，因为“dobergoats”并不存在，且警方并未破获所谓的“Amish Dobergoat Fighting Ring”。",
+        "is_correct": true
+    },
+    {
+        "index": 78,
+        "news": "Will Jesus Be Portrayed as Homosexual in an Upcoming Film?",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: 根据Snopes的报道，这个关于电影中耶稣被描绘为同性恋的说法是一个长期存在的谣言，并没有实际的电影项目存在。",
+        "is_correct": true
+    },
+    {
+        "index": 79,
+        "news": "‘Chilling’ Photograph of Fatal Crash Shows Spirit Leaving Victim’s Body",
+        "true_label": "False",
+        "prediction": "False.Thephotographdoesnotshowaspiritleavingthevictimsbodybutislikelyaresultofdustordirtonthecameralensorsensor.",
+        "reason": "```",
+        "is_correct": false
+    },
+    {
+        "index": 80,
+        "news": "Was DNC Worker Seth Conrad Rich Gunned Down on His Way to Meet the FBI?",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: Snopes网站和其他可靠来源明确指出，Seth Rich的死亡与任何FBI会面或与Hillary Clinton的关联无关，且没有证据支持这一阴谋论。",
+        "is_correct": true
+    },
+    {
+        "index": 83,
+        "news": "Eiffel Tower Set Ablaze by Terrorists",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "The news \"Eiffel Tower Set Ablaze by Terrorists\" is false. The Snopes article clarifies that the smoke and fire near the Eiffel Tower were due to an accidental fireworks explosion, not a terrorist attack. The Paris Police also confirmed that there was no fire at the Eiffel Tower and that the incident was an accidental truck fire at Jena Bridge.",
+        "is_correct": true
+    },
+    {
+        "index": 85,
+        "news": "21 Dead, Many Injured in Ontario",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "The news \"21 Dead, Many Injured in Ontario\" does not have credible sources or factual evidence to support its authenticity. Additionally, the fact-checking website Snopes does not have a relevant entry for this claim.",
+        "is_correct": true
+    },
+    {
+        "index": 86,
+        "news": "How 10cc Got Their Name",
+        "true_label": "False",
+        "prediction": "True",
+        "reason": "The band 10cc was indeed named after Jonathan King had a dream in which he was told to name the band \"10cc.\" This information is corroborated by multiple reliable sources, including Wikipedia and Snopes.",
+        "is_correct": false
+    },
+    {
+        "index": 87,
+        "news": "France Covered Up Torture and Mutilation of Bataclan Victims",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: Snopes, a reliable fact-checking website, has debunked the claim, citing testimony from the March 2016 inquiry that found no forensic evidence supporting allegations of torture and mutilation. Additionally, the large number of surviving witnesses would have shared their stories if such acts had occurred.",
+        "is_correct": true
+    },
+    {
+        "index": 88,
+        "news": "Betty White on ‘Grow Some Balls’",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "The news is false because the quote attributed to Betty White is not authentic, as confirmed by Snopes.com.",
+        "is_correct": true
+    },
+    {
+        "index": 89,
+        "news": "Image of Donald Trump with No Wig or Makeup",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: The Snopes article concludes that the image of Donald Trump without a wig or makeup is a digital creation and not a real photograph. The image originated from a political spoof website called Liberal Darkness.",
+        "is_correct": true
+    },
+    {
+        "index": 90,
+        "news": "Obama Calls for Black Lives Matter Memorial",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "The claim that President Obama called for a Black Lives Matter memorial is false, according to Snopes, a reliable fact-checking website. The article in question originated from a satirical website and has no basis in reality.",
+        "is_correct": true
+    },
+    {
+        "index": 91,
+        "news": "Ted Cruz: I Will Endorse Donald Trump for President If He Makes Masturbation Illegal",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: 根据Snopes.com的核实，这条新闻是一个虚假的新闻报道。",
+        "is_correct": true
+    },
+    {
+        "index": 92,
+        "news": "Black Lives Matter Protesters Chant for ‘Dead Cops Now’  in Baton Rouge",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "The claim that Black Lives Matter protesters in Baton Rouge chanted for \"dead cops\" is false. The video in question dates back to December 2014 and was from a protest in New York City, not Baton Rouge. Additionally, the chanting was done by a small group of protesters who were not part of the official Black Lives Matter movement and were disavowed by the organizers of the Millions March.",
+        "is_correct": true
+    },
+    {
+        "index": 94,
+        "news": "Officer Who Shot Alton Sterling Pictured at KKK Rally",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据:",
+        "is_correct": true
+    },
+    {
+        "index": 95,
+        "news": "Chelsea Clinton Made $900,000 Working for Her Parents",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "The claim that Chelsea Clinton made $900,000 working for her parents is false. According to Snopes, Chelsea Clinton was paid $600,000 per year by NBC News as a special correspondent, and she was not working for her parents directly. Additionally, the $900,000 figure may have been conflated with her other roles, such as her position as a board member of IAC/Interactive Corp, which paid her $300,000.",
+        "is_correct": true
+    },
+    {
+        "index": 97,
+        "news": "Did Mike Pence Say ‘Allowing Rape Victims to Have Abortions Will Lead to Women Trying to Get Raped’?",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: Fact-checking websites such as FactCheck.org and PolitiFact have debunked this claim, labeling it as a fake news story.",
+        "is_correct": true
+    },
+    {
+        "index": 98,
+        "news": "Fresno Terrorism Threat: Women in Burqas Buying Cell Phones",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "The news item \"Fresno Terrorism Threat: Women in Burqas Buying Cell Phones\" has been fact-checked by Snopes and found to be false. The original report was a second-hand forwarding of a presentation by Lt. Col. John G. Cotter, which was grossly exaggerated. Lt. Col. Cotter clarified that the examples cited in the email were distorted, misrepresented, and inaccurately reported. Other attendees of the presentation also did not recall the remarks attributed to Lt. Col. Cotter. Therefore, based on the fact-checking by Snopes, the news is deemed false.",
+        "is_correct": true
+    },
+    {
+        "index": 99,
+        "news": "Trump/Pence Logo Taken from ‘T Laying P Ranch’",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: Snopes, a reliable fact-checking website, has debunked the claim that the Trump/Pence logo was taken from the 'T Laying P Ranch'. The article explains that the logo was widely mocked for its vaguely sexual nature, but the photograph used in the claim did not show a Nevada brothel; instead, it depicted the entrance to the Southfork Ranch in Texas, which was popularized by the television series 'Dallas'.",
+        "is_correct": true
+    },
+    {
+        "index": 100,
+        "news": "Is Disney/Pixar’s ‘Monsters, Inc.’ Sequel Set for a July 2020 Release?",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: 搜索结果显示没有'Monsters, Inc.'的续集在2020年7月发布，而是'Monsters at Work'在2021年7月在Disney+上发布。Snopes也证实了这一消息为假。",
+        "is_correct": true
+    },
+    {
+        "index": 101,
+        "news": "Justin Trudeau to Pardon All Prisoners Convicted of a Marijuana Offence",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: 该新闻来源为讽刺性出版物The Global Sun，并非真实新闻报道。加拿大总理贾斯汀·特鲁多并未采取此类行动。",
+        "is_correct": true
+    },
+    {
+        "index": 102,
+        "news": "Hillary Clinton Supporter Stands on American Flag",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "The news is debunked by Snopes, which states the rating as False.",
+        "is_correct": true
+    },
+    {
+        "index": 103,
+        "news": "Pokemon Go Uploads Your Data to Google Maps",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据：Snopes网站对该新闻进行了事实核查，并将其评级为False。此外，搜索结果表明，Niantic使用玩家数据构建AI导航系统，但这些数据并未直接上传到Google Maps。",
+        "is_correct": true
+    },
+    {
+        "index": 104,
+        "news": "Illegal Alien Denied Cops Service, ‘We Don’t Serve Pigs’",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "The claim is false because it was fabricated by the Conservative Daily Post, and the image used was a stock photo. No public apology was issued by McDonald's, and no news outlets reported on the incident.",
+        "is_correct": true
+    },
+    {
+        "index": 106,
+        "news": "Trump Copies Obama’s Congratulatory Tweet",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: 事实核查网站Snopes证实，唐纳德·特朗普的推文并非从巴拉克·奥巴马处复制，且奥巴马的推文是伪造的。",
+        "is_correct": true
+    },
+    {
+        "index": 107,
+        "news": "How to ‘Make Peace with the Blacks’",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: 搜索结果显示，该新闻标题“How to ‘Make Peace with the Blacks’”可能是一个讽刺性或不当的表达，且未找到任何可靠来源证实该新闻的真实性。新闻标题本身可能带有种族歧视或不当言论的嫌疑，因此应持怀疑态度并给出否定判断。",
+        "is_correct": true
+    },
+    {
+        "index": 108,
+        "news": "Pokemon Global Offensive",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据：新闻标题\"Pokemon Global Offensive\"主要出现在社交媒体和幽默内容中，并未出现在可靠的新闻来源中。此外，事实核查网站Snopes明确指出该标题不实。",
+        "is_correct": true
+    },
+    {
+        "index": 109,
+        "news": "Michelle Obama Stole Her Speech from Melania Trump",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "Melania Trump's speech in 2016 had similarities to Michelle Obama's speech in 2008, but the statement \"Michelle Obama Stole Her Speech from Melania Trump\" is incorrect. The controversy was about Melania Trump's speech, not Michelle Obama's.",
+        "is_correct": true
+    },
+    {
+        "index": 112,
+        "news": "Obama Signs Executive Order to Pay Partial Reparations to African-Americans",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "The news \"Obama Signs Executive Order to Pay Partial Reparations to African-Americans\" is false. While there have been discussions and support for the concept of reparations, no such executive order was signed by Obama. The closest evidence is found in the Snopes article, which states that this is a false claim. The other sources indicate discussions and support for the idea of reparations but not the signing of an executive order.",
+        "is_correct": true
+    },
+    {
+        "index": 115,
+        "news": "First Lady Michelle Obama Requires More Than Twenty Attendants",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "The claim that Michelle Obama has an 'unprecedented' number of staffers is inaccurate. Her staff size is comparable to that of previous First Ladies, and the number is not exceptional.",
+        "is_correct": true
+    },
+    {
+        "index": 116,
+        "news": "Michelle Obama Plagiarized Her 2008 DNC Speech from Stephen R. Covey",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据：Snopes fact-checking网站明确指出，米歇尔·奥巴马的2008年DNC演讲并未从斯蒂芬·R·科维的著作中抄袭，且社交网络上流传的相关段落并未在科维的作品中找到。",
+        "is_correct": true
+    },
+    {
+        "index": 117,
+        "news": "Donald Trump Jr.: Our Greenskeeper Skipped His Sister’s Wedding",
+        "true_label": "True",
+        "prediction": "True",
+        "reason": "根据多个可靠来源的报道，包括Snopes和Mother Jones，Donald Trump Jr.确实在社交媒体上发过这条消息，称他们家的园丁为了工作错过了他妹妹的婚礼。",
+        "is_correct": true
+    },
+    {
+        "index": 119,
+        "news": "Obama to Ban Trucks After Nice Attack",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "The news headline \"Obama to Ban Trucks After Nice Attack\" is found to be false. The evidence points to this claim originating from a satirical blog post, as indicated by the Snopes.com source (position 8 in the search results). Additionally, no credible news sources report that President Obama planned to ban trucks after the Nice attack.",
+        "is_correct": true
+    },
+    {
+        "index": 120,
+        "news": "Donald Trump: ‘Abraham Lincoln Was a Dishonest Traitor’",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: 这条新闻是一个讽刺性的标题，音频内容是被编辑过的，不是真实的Donald Trump的言论。",
+        "is_correct": true
+    },
+    {
+        "index": 123,
+        "news": "Trump Ghostwriter Meredith McIver Doesn’t Exist?",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "Meredith McIver is a real person and has been credited with ghostwriting multiple books by Donald Trump. The claim that she doesn't exist is false.",
+        "is_correct": true
+    },
+    {
+        "index": 126,
+        "news": "Protester Screams in NYPD Cop’s Face",
+        "true_label": "True",
+        "prediction": "True",
+        "reason": "The photograph shows a protester face-to-face with an NYPD officer, but whether she was actually screaming in his face is uncertain.",
+        "is_correct": true
+    },
+    {
+        "index": 127,
+        "news": "Melania Trump Wore Seinfeld’s ‘Pirate Shirt’ to the RNC",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: Snopes, a reliable fact-checking website, has confirmed that the photograph showing Melania Trump wearing the 'pirate shirt' from Seinfeld at the RNC is not real. The image was altered, with frills on the chest and arms digitally added to her actual dress.",
+        "is_correct": true
+    },
+    {
+        "index": 129,
+        "news": "Were Islamic Symbols Added to the White House Fence?",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: Snopes, a reliable fact-checking website, has rated the claim \"Were Islamic Symbols Added to the White House Fence?\" as False. This indicates that there is no evidence supporting the addition of Islamic symbols to the White House fence.",
+        "is_correct": true
+    },
+    {
+        "index": 130,
+        "news": "Netflix CEO: ‘Trump Would Destroy Much of What Is Great About America’",
+        "true_label": "True",
+        "prediction": "True",
+        "reason": "判断依据: 多个权威新闻来源证实了Netflix CEO Reed Hastings在2016年确实发表过此言论，批评特朗普的政策对美国的影响。",
+        "is_correct": true
+    },
+    {
+        "index": 131,
+        "news": "Mysterious Unidentified Flying Object Over Airport in Turkey",
+        "true_label": "False",
+        "prediction": "True",
+        "reason": "The news is reported by multiple reputable sources, and the details in the New York Post article match the descriptions found in other news articles. The incident at Gaziantep Airport in Turkey, where flights were suspended due to a UFO sighting, has been confirmed by multiple reliable sources.",
+        "is_correct": false
+    },
+    {
+        "index": 134,
+        "news": "Stanley Kubrick’s ‘Don’t F*** with Me’ Letter",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "The letter is widely believed to be a fake, as confirmed by fact-checking sites like Snopes.com and other credible sources.",
+        "is_correct": true
+    },
+    {
+        "index": 135,
+        "news": "Trump’s RNC Speech Plagiarized Hitler",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "The claim that Donald Trump plagiarized his speech at the Republican National Convention from Adolf Hitler's inaugural address in 1933 originated with a satirical publication called The Plantain. Snopes, a reliable fact-checking website, rated this claim as false. The comparison was made in a satirical context, and there is no factual basis for the claim.",
+        "is_correct": true
+    },
+    {
+        "index": 138,
+        "news": "Doe Run Lead Plant Shut Down to Effect ‘Back Door Gun Control’",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "The closure of the Doe Run Lead Plant was due to EPA regulations, not as a means for gun control.",
+        "is_correct": true
+    },
+    {
+        "index": 139,
+        "news": "Was the Identity of a Baseball-Stealing Woman Revealed?",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "The identity of the woman who grabbed the baseball from a child at an Astros game was not revealed as Grennele Brashkowitz, as claimed. The information originated from a satirical or fake news source, The Damien Zone, which does not prioritize accuracy.",
+        "is_correct": true
+    },
+    {
+        "index": 140,
+        "news": "France Announces It Will Use Guillotines on Terrorists",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: Snopes fact-checked the news and labeled it as fake. The search results do not provide any credible sources supporting the claim, and historical context confirms that France has not used the guillotine for executions since 1981.",
+        "is_correct": true
+    },
+    {
+        "index": 141,
+        "news": "Obama and Clinton Have Iranian Advisers?",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: Snopes.com, a reliable fact-checking source, states that neither Barack Obama's nor Hillary Clinton's top advisers are Iranian, contradicting the claim in the headline.",
+        "is_correct": true
+    },
+    {
+        "index": 142,
+        "news": "Pretoria Chinese Restaurants Granted Permission to Sell Dog Meat",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: Snopes, a reputable fact-checking website, rates the claim as False. Additionally, no other reliable sources confirm the permission granted to Chinese restaurants in Pretoria to sell dog meat.",
+        "is_correct": true
+    },
+    {
+        "index": 143,
+        "news": "Cicero’s View of Life",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据：\"Cicero's View of Life\" refers to the philosophical views of a historical figure, not a contemporary news event.",
+        "is_correct": true
+    },
+    {
+        "index": 145,
+        "news": "Ted Cruz Will Speak at Democratic National Convention",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: 搜索结果和文章内容表明，Ted Cruz没有被列为将在民主党全国代表大会上发言的演讲者。虽然他与民主党全国代表大会有关，但主要是在反对民主党候选人Colin Allred的背景下，而不是作为演讲者。",
+        "is_correct": true
+    },
+    {
+        "index": 146,
+        "news": "Pope Francis Shocks World, Endorses Hillary Clinton for President",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: 多个权威来源，包括Snopes、FactCheck.org和PolitiFact，均指出这条新闻是假新闻。",
+        "is_correct": true
+    },
+    {
+        "index": 147,
+        "news": "Graham Says Christians Must Support Trump or Face Death Camps",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据：根据Snopes的报道，这条新闻是一个假新闻文章，声称传教士Franklin Graham警告基督徒如果不支持Donald Trump将面临死亡营地。",
+        "is_correct": true
+    },
+    {
+        "index": 150,
+        "news": "No American Flags Present at the Democratic National Convention",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "American flags were present at the Democratic National Convention, as reported by multiple credible sources such as Reuters, USA Today, AFP Fact Check, and PolitiFact.",
+        "is_correct": true
+    },
+    {
+        "index": 153,
+        "news": "Joel Osteen Endorses Donald Trump",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "Joel Osteen has not officially endorsed Donald Trump for president. While he has complimented Trump in some interviews, there is no official endorsement as of the information available.",
+        "is_correct": true
+    },
+    {
+        "index": 155,
+        "news": "‘When You Need to Get Her Drunk’",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: The title \"‘When You Need to Get Her Drunk’\" is found to be associated with a Photoshop contest entry, indicating it is not a genuine news article but rather a piece of satire or a false claim, as reported by Snopes.",
+        "is_correct": true
+    },
+    {
+        "index": 156,
+        "news": "Disney’s ‘Tower of Terror’ Being Replaced with ‘Guardians of the Galaxy’",
+        "true_label": "True",
+        "prediction": "True",
+        "reason": "判断依据: 多个可靠来源如Wikipedia和Snopes确认迪士尼的“惊魂古塔”被“银河守护者”取代。",
+        "is_correct": true
+    },
+    {
+        "index": 157,
+        "news": "Did Bill Clinton Hold Up LAX Air Traffic for a Haircut?",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: 多个可靠来源,包括Snopes、The New York Times和Los Angeles Times,以及联邦航空管理局的记录,均表明比尔·克林顿在洛杉矶国际机场理发并未导致航空延误。因此,该新闻的真实性为False。",
+        "is_correct": true
+    },
+    {
+        "index": 158,
+        "news": "Suicide Bomber Explodes After Falling Off Skateboard",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: Snopes fact-check website confirms that the video showing a man exploding after falling off a hoverboard is altered and not authentic.",
+        "is_correct": true
+    },
+    {
+        "index": 159,
+        "news": "Samsung’s Dog-Skinning Machine",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "The claim that Samsung manufactures a machine for skinning dogs is false. The machine in question is actually used to remove fur from already dead dogs and is not manufactured by Samsung. The graphic calling for a boycott of Samsung products over this allegation is based on faulty information.",
+        "is_correct": true
+    },
+    {
+        "index": 162,
+        "news": "Mike Rowe ‘Unleashes Hell On Hillary’",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "The headline \"Mike Rowe 'Unleashes Hell On Hillary'\" is false. The Snopes article indicates that Mike Rowe did not \"unleash hell\" on Hillary Clinton due to a lack of donations. Rowe posed a charitable challenge to both Trump and Clinton, but there is no evidence of a conversation where Rowe questioned Clinton's Christian values or \"unleashed hell\" on her. The story circulating about Rowe's reaction is inaccurate and unsupported by credible sources.",
+        "is_correct": true
+    },
+    {
+        "index": 166,
+        "news": "Jaden Smith Commits Suicide",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据：搜索结果显示这一新闻是一个谣言，多个可靠来源如Snopes和IMDb都证实这是一个虚假新闻。Jaden Smith的死亡传闻已被多次辟谣。",
+        "is_correct": true
+    },
+    {
+        "index": 167,
+        "news": "Jesus Is Not Coming Back, Vatican Says",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: ",
+        "is_correct": true
+    },
+    {
+        "index": 168,
+        "news": "Is a Testicular Blow Exponentially More Painful Than Childbirth?",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "The claim that a testicular blow is exponentially more painful than childbirth is not supported by scientific evidence. The comparison is subjective and lacks a valid pain measurement scale.",
+        "is_correct": true
+    },
+    {
+        "index": 169,
+        "news": "Is Green Party Candidate Jill Stein ‘Anti-Vaccine’?",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据：根据多个可靠来源的报道，Jill Stein表示她理解公众对疫苗监管机构的不信任，但她也明确指出疫苗在消除许多疾病方面是至关重要的。她并未直接表明自己是\"反疫苗\"的，而是对疫苗监管机构提出批评。因此，称她为\"反疫苗\"是不准确的。",
+        "is_correct": true
+    },
+    {
+        "index": 170,
+        "news": "Bill Clinton Said Hillary Suffered More Than ‘Those Guys in Benghazi’",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: ",
+        "is_correct": true
+    },
+    {
+        "index": 171,
+        "news": "Michael Jordan Says ‘I Won’t Release Another Shoe Until Black People Unite’",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: 多个事实核查来源如Snopes和Lead Stories证实该新闻为虚假信息，且该声明不符合Michael Jordan一贯的公众形象和行为。",
+        "is_correct": true
+    },
+    {
+        "index": 172,
+        "news": "Kid Rock Sneaks Into Hillary Clinton Event to Shout ‘Vote Donald Trump’ During Rally",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据：根据搜索结果，Snopes网站指出这条新闻是一个假新闻。新闻内容声称Kid Rock在2016年DNC（民主党全国代表大会）上打断了Hillary Clinton的活动，喊出“Vote Donald Trump”，但这一事件并未发生。因此，这条新闻的真实性是假的。",
+        "is_correct": true
+    },
+    {
+        "index": 174,
+        "news": "So Long and Thanks for All the Fish",
+        "true_label": "True",
+        "prediction": "False",
+        "reason": "判断依据: The phrase \"So Long and Thanks for All the Fish\" is a literary reference from a book series and not a news item.",
+        "is_correct": false
+    },
+    {
+        "index": 175,
+        "news": "Uniformed Police Officers Banned From the Democratic National Convention",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "Uniformed Police Officers Banned From the Democratic National Convention is not true, according to fact-checking websites like Snopes.",
+        "is_correct": true
+    },
+    {
+        "index": 176,
+        "news": "Tom Hanks Backs Donald Trump for President",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据：",
+        "is_correct": true
+    },
+    {
+        "index": 179,
+        "news": "Tim Kaine Wears Communist Flag Pin at DNC",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: Snopes, a credible fact-checking website, clarified that the pin Tim Kaine wore at the DNC was not a Communist flag pin but a symbol representing his son's service in the U.S. Marines.",
+        "is_correct": true
+    },
+    {
+        "index": 181,
+        "news": "Celebrity Summoned to Jury Duty in Your Town!",
+        "true_label": "False",
+        "prediction": "True",
+        "reason": "判断依据: 搜索结果显示，名人确实会被传唤参加陪审团服务，并且有名人确实履行了这一义务。",
+        "is_correct": false
+    },
+    {
+        "index": 182,
+        "news": "Always a Bridesmaid, Never a Bride",
+        "true_label": "True",
+        "prediction": "False",
+        "reason": "判断依据：\"Always a Bridesmaid, Never a Bride\" is a common phrase with historical and cultural significance, not a news item. It originated from a 1925 advertisement and is not subject to truthfulness evaluation as a news story.",
+        "is_correct": false
+    },
+    {
+        "index": 183,
+        "news": "Trump Claims America Should Never Have Given Canada Its Independence",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "The claim \"Trump Claims America Should Never Have Given Canada Its Independence\" was found on a satirical site (Snopes), indicating that it is not authentic. Additionally, this claim was not supported by multiple credible sources, which further confirms its lack of authenticity.",
+        "is_correct": true
+    },
+    {
+        "index": 184,
+        "news": "Hillary Clinton: ‘Marriage Is Always Between a Man and a Woman’",
+        "true_label": "True",
+        "prediction": "False",
+        "reason": "判断依据: 根据多个可靠来源的记录，Hillary Clinton在2007年确实表达过支持婚姻是“between a man and a woman”的观点。然而，她的立场在随后的几年中发生了变化，成为了同性婚姻的坚定支持者。因此，这个声明虽然在特定时间点上是真实的，但在当前语境下并不准确。",
+        "is_correct": false
+    },
+    {
+        "index": 186,
+        "news": "Trump Leaks Classified Info After Intelligence Briefing",
+        "true_label": "False",
+        "prediction": "True",
+        "reason": "判断依据: 有多个可靠来源证实特朗普泄露了情报机密,例如华盛顿邮报和Snopes等。情感分析也为负面,表明这是一则负面报道,与事实相符。",
+        "is_correct": false
+    },
+    {
+        "index": 187,
+        "news": "Did Kurt Cobain Predict a Donald Trump Presidency in 1993?",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: Multiple fact-checking sources, including Reuters, FactCheck.org, Snopes, PolitiFact, and Yahoo, have confirmed that the claim is false and that there is no evidence to support the prediction made by Kurt Cobain in 1993.",
+        "is_correct": true
+    },
+    {
+        "index": 189,
+        "news": "Hillary Clinton Touts Sharia Law as ‘Powerful New Direction’ for Women",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "The news is a fabrication, as confirmed by fact-checking websites like Snopes.",
+        "is_correct": true
+    },
+    {
+        "index": 191,
+        "news": "New Regulation Requires Motorcycle Owners to Install 75 MPH Governors by January 2017",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: 搜索结果显示，多个可靠的事实核查网站如Snopes和PolitiFact都证实该新闻是假的。Snopes明确指出该新闻为“False”评级，并指出这是一个虚假新闻网站传播的谣言。此外，其他搜索结果也没有提供任何证据表明在2017年1月存在这样的法规。",
+        "is_correct": true
+    },
+    {
+        "index": 192,
+        "news": "Is the Green Party on the Ballot in All 50 States?",
+        "true_label": "True",
+        "prediction": "False",
+        "reason": "判断依据: 搜索结果显示，绿党在某些州有选票资格，但并非在所有50个州都有。",
+        "is_correct": false
+    },
+    {
+        "index": 193,
+        "news": "Does This List Prove Voter Fraud in 2012?",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据：",
+        "is_correct": true
+    },
+    {
+        "index": 194,
+        "news": "Ghazala Khan’s Hijab Was a Political Stunt",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据：根据Snopes.com的核实，声称Ghazala Khan的hijab是一个政治噱头的照片实际上并不是她，而是另一位名叫Elsheba Khan的黄金星母亲。这一信息来自一个可靠的事实核查网站，证明了该新闻声明的不真实性。",
+        "is_correct": true
+    },
+    {
+        "index": 195,
+        "news": "For All Jews Voting for Hillary",
+        "true_label": "True",
+        "prediction": "False",
+        "reason": "判断依据：新闻标题\"For All Jews Voting for Hillary\"并未提供具体的新闻内容或上下文，且搜索结果中的信息主要来自2016年的选举，与当前任务无关。此外，新闻来源和内容的真实性无法通过现有工具验证。",
+        "is_correct": false
+    },
+    {
+        "index": 196,
+        "news": "Did Pat Robertson Say ‘Melania’s Nude Pics Are Pure Art’?",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据: Snopes, a reliable fact-checking website, has rated the claim as False. The original source, Politicops, is a satirical website, and the quotes attributed to Pat Robertson are entirely fictitious.",
+        "is_correct": true
+    },
+    {
+        "index": 197,
+        "news": "Captain Khan’s Epitaph: ‘Beware of Dying as an Apostate’",
+        "true_label": "False",
+        "prediction": "False",
+        "reason": "判断依据：根据Snopes.com的核实，这条新闻中关于Captain Khan墓碑上的铭文“Beware of Dying as an Apostate”是源自ISIS的虚假宣传，并没有出现在Khan的实际墓碑上。因此，这条新闻是虚假的。",
+        "is_correct": true
+    },
+    {
+        "index": 198,
+        "news": "The Rolling Stones’ Rice Krispies Jingle",
+        "true_label": "True",
+        "prediction": "True",
+        "reason": "判断依据: 多个可靠来源证实The Rolling Stones在1964年为Rice Krispies录制了广告歌曲，且有视频和文字记录支持这一历史事件。",
+        "is_correct": true
+    }
+]
